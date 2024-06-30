@@ -1,9 +1,11 @@
 # ninja log v6
 12	1144	7412920127595557	CMakeFiles/Leetcode_Solutions.dir/Stack/Car-Fleet_M.cpp.obj	7f532eb4e0046b47
-5	322	7412926786712137	build.ninja	64c4c50b0e3cb077
-3	1159	7412920127507794	CMakeFiles/Leetcode_Solutions.dir/Car-Fleet_M.cpp.obj	44434324ddfa6cb0
-17	726	7412923812227648	CMakeFiles/Leetcode_Solutions.dir/Stack/Daily_Temperatures_M.cpp.obj	feb7b494d946009b
-780	938	7412925893261950	Leetcode_Solutions.exe	6a5a8d5f1be87500
-20	780	7412925885666288	CMakeFiles/Leetcode_Solutions.dir/Stack/Evaluate_RPM_M.cpp.obj	9e116ebdd6721c9e
 16	705	7412926869530223	CMakeFiles/Leetcode_Solutions.dir/Stack/Min_Stack_M.cpp.obj	a91834e2b7b2ffee
+17	726	7412923812227648	CMakeFiles/Leetcode_Solutions.dir/Stack/Daily_Temperatures_M.cpp.obj	feb7b494d946009b
+3	1159	7412920127507794	CMakeFiles/Leetcode_Solutions.dir/Car-Fleet_M.cpp.obj	44434324ddfa6cb0
+5	322	7414479071166708	build.ninja	64c4c50b0e3cb077
+20	780	7412925885666288	CMakeFiles/Leetcode_Solutions.dir/Stack/Evaluate_RPM_M.cpp.obj	9e116ebdd6721c9e
 709	845	7412926876457369	Leetcode_Solutions.exe	d9f4f5c53c42916f
+30	466	7414479071166708	build.ninja	64c4c50b0e3cb077
+35	1032	7414479072871144	CMakeFiles/Leetcode_Solutions.dir/Stack/Largest-Rectangle-in-Histogram_h.cpp.obj	4ab3cf7add5aab80
+1033	1507	7414479082845137	Leetcode_Solutions.exe	4953d4b8a40d1f34

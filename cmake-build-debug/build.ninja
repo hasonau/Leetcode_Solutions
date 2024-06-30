@@ -49,8 +49,8 @@ cmake_ninja_workdir = D$:/CLION_PROJECTS_GITHUB/Leetcode-Solutions/cmake-build-d
 
 build cmake_object_order_depends_target_Leetcode_Solutions: phony || CMakeFiles/Leetcode_Solutions.dir
 
-build CMakeFiles/Leetcode_Solutions.dir/Stack/Min_Stack_M.cpp.obj: CXX_COMPILER__Leetcode_Solutions_unscanned_Debug D$:/CLION_PROJECTS_GITHUB/Leetcode-Solutions/Stack/Min_Stack_M.cpp || cmake_object_order_depends_target_Leetcode_Solutions
-  DEP_FILE = CMakeFiles\Leetcode_Solutions.dir\Stack\Min_Stack_M.cpp.obj.d
+build CMakeFiles/Leetcode_Solutions.dir/Stack/Largest-Rectangle-in-Histogram_h.cpp.obj: CXX_COMPILER__Leetcode_Solutions_unscanned_Debug D$:/CLION_PROJECTS_GITHUB/Leetcode-Solutions/Stack/Largest-Rectangle-in-Histogram_h.cpp || cmake_object_order_depends_target_Leetcode_Solutions
+  DEP_FILE = CMakeFiles\Leetcode_Solutions.dir\Stack\Largest-Rectangle-in-Histogram_h.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Leetcode_Solutions.dir
   OBJECT_FILE_DIR = CMakeFiles\Leetcode_Solutions.dir\Stack
@@ -63,7 +63,7 @@ build CMakeFiles/Leetcode_Solutions.dir/Stack/Min_Stack_M.cpp.obj: CXX_COMPILER_
 #############################################
 # Link the executable Leetcode_Solutions.exe
 
-build Leetcode_Solutions.exe: CXX_EXECUTABLE_LINKER__Leetcode_Solutions_Debug CMakeFiles/Leetcode_Solutions.dir/Stack/Min_Stack_M.cpp.obj
+build Leetcode_Solutions.exe: CXX_EXECUTABLE_LINKER__Leetcode_Solutions_Debug CMakeFiles/Leetcode_Solutions.dir/Stack/Largest-Rectangle-in-Histogram_h.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Leetcode_Solutions.dir
