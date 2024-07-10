@@ -13,4 +13,9 @@ set(CMAKE_CXX_STANDARD 17)
 
 
 ######################        BINARY SEARCH
-add_executable(Leetcode_Solutions "Binary Search/Binary-Search_E.cpp")
+#add_executable(Leetcode_Solutions "Binary Search/Binary-Search_E.cpp")
+add_executable(Leetcode_Solutions "Binary Search/Median-of-Two-Sorted-Arrays_H.cpp")
+#add_executable(Leetcode_Solutions "Binary Search/Median-of-Two-Sorted-Arrays_H.cpp"
+#"Binary Search/Median-of-Two-Sorted-Arrays_H.cpp")
+#add_executable(Leetcode_Solutions "Binary Search/Koko-Eating-Bananas_M.cpp")
+
