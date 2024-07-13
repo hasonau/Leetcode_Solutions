@@ -21,4 +21,5 @@ set(CMAKE_CXX_STANDARD 17)
 
 ############         SLIDING WINDOW PROBLEMS
 #add_executable(Leetcode_Solutions "Sliding-Window/Best_time-to-buy-and-sell-stock_E.cpp")
-add_executable(Leetcode_Solutions "Sliding-Window/Longest-Substring-Without-Repeating-Characters_M.cpp")
+#add_executable(Leetcode_Solutions "Sliding-Window/Longest-Substring-Without-Repeating-Characters_M.cpp")
+add_executable(Leetcode_Solutions "Sliding-Window/Longest-Repeating-Character-Replacement.cpp")
