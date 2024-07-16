@@ -1,4 +1,7 @@
 # ninja log v6
-28	385	7425481866759643	build.ninja	64c4c50b0e3cb077
+28	385	7428084008716884	build.ninja	64c4c50b0e3cb077
 1239	1796	7425480257778567	Leetcode_Solutions.exe	8d5a07bf9cdf7946
 34	1238	7425480245725093	CMakeFiles/Leetcode_Solutions.dir/Sliding-Window/Longest-Repeating-Character-Replacement.cpp.obj	311141ae3c2425ae
+23	394	7428084008716884	build.ninja	64c4c50b0e3cb077
+54	1478	7428084010443174	CMakeFiles/Leetcode_Solutions.dir/Sliding-Window/Permutations-in-String.cpp.obj	986ed70e9bc56708
+1479	1913	7428084024681328	Leetcode_Solutions.exe	be9dacd250703cc2
