@@ -1,4 +1,5 @@
 # ninja log v6
-23	394	7429275927531233	build.ninja	64c4c50b0e3cb077
-1479	1913	7428084024681328	Leetcode_Solutions.exe	be9dacd250703cc2
+19	386	7429330899199106	build.ninja	64c4c50b0e3cb077
+1525	2122	7429329424985872	Leetcode_Solutions.exe	9d78522dbf5d9b66
+55	1524	7429329410289057	CMakeFiles/Leetcode_Solutions.dir/Sliding-Window/Minimum-Window-Substring_H.cpp.obj	8ed1dd59da1f9262
 54	1478	7428084010443174	CMakeFiles/Leetcode_Solutions.dir/Sliding-Window/Permutations-in-String.cpp.obj	986ed70e9bc56708
