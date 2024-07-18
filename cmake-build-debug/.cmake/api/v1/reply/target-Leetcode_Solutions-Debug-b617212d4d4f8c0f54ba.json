@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 27,
+				"line" : 28,
 				"parent" : 0
 			}
 		]
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Sliding-Window/Minimum-Window-Substring_H.cpp",
+			"path" : "Linked-List/Reverse-Linked-List_E.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -18,10 +18,11 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(Leetcode_Solutions "Binary Search/Koko-Eating-Bananas_M.cpp")
 
 
-
+#add_executable(Leetcode_Solutions)
 ############         SLIDING WINDOW PROBLEMS
 #add_executable(Leetcode_Solutions "Sliding-Window/Best_time-to-buy-and-sell-stock_E.cpp")
 #add_executable(Leetcode_Solutions "Sliding-Window/Longest-Substring-Without-Repeating-Characters_M.cpp")
 #add_executable(Leetcode_Solutions "Sliding-Window/Longest-Repeating-Character-Replacement.cpp")
 #add_executable(Leetcode_Solutions "Sliding-Window/Permutations-in-String.cpp" )
-add_executable(Leetcode_Solutions "Sliding-Window/Minimum-Window-Substring_H.cpp")
+#add_executable(Leetcode_Solutions "Sliding-Window/Minimum-Window-Substring_H.cpp")
+add_executable(Leetcode_Solutions "Linked-List/Reverse-Linked-List_E.cpp")
