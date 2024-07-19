@@ -9,51 +9,23 @@ class ListNode:
 
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
-        # If one of the lists is empty, return the other list
-        if not list1:
-            return list2
-        elif not list2:
-            return list1
-        else:
-            pass
 
-        # Initialize dummy head nodes for merged list
-        head = ListNode(None)
-        tmp = ListNode(None)
-        count = 0
-
-        # Merge the lists while both are non-empty
-        while list1 and list2:
-            if list1.val <= list2.val:
-                if count == 0:
-                    head = list1
-                    count += 1
-                tmp.next = list1
-                tmp = list1
-                list1 = list1.next
+        head=ListNode()
+        tmp=head
+        while list1 and list2 :
+            if list1.val<=list2.val:
+                tmp.next=list1
+                list1=list1.next
             else:
-                if count == 0:
-                    head = list2
-                    count += 1
-                tmp.next = list2
-                tmp = list2
-                list2 = list2.next
+                tmp.next=list2
+                list2=list2.next
+            tmp=tmp.next
 
-        # Attach the remaining elements of the non-empty list
         if list1:
-            while list1:
-                tmp.next = list1
-                tmp = list1
-                list1 = list1.next
-        elif list2:
-            while list2:
-                tmp.next = list2
-                tmp = list2
-                list2 = list2.next
-        else:
-            return head
-
-        return head
+            tmp.next=list1
+        elif list2 :
+            tmp.next=list2
+        return head.next
 
 # Main function to test mergeTwoLists
 if __name__ == "__main__":
