@@ -1,11 +1,12 @@
 # ninja log v6
+19	380	7431505523143792	build.ninja	64c4c50b0e3cb077
 25	552	7430100457181988	CMakeFiles/Leetcode_Solutions.dir/Linked-List/Merge_Two_Sorted_Linked_Lists_E.cpp.obj	b409abc6a7f459e2
-19	380	7430747995839433	build.ninja	64c4c50b0e3cb077
-553	689	7430100462465768	Leetcode_Solutions.exe	569e4cef67a04d4a
 55	1524	7429329410289057	CMakeFiles/Leetcode_Solutions.dir/Sliding-Window/Minimum-Window-Substring_H.cpp.obj	8ed1dd59da1f9262
 31	1246	7430095277906842	CMakeFiles/Leetcode_Solutions.dir/Linked-List/Merge_Two_Sorted_Linked_Lists.cpp.obj	932e0b9559a62c74
+963	1183	7430755912215698	Leetcode_Solutions.exe	5e61fda2ee76e145
 54	1478	7428084010443174	CMakeFiles/Leetcode_Solutions.dir/Sliding-Window/Permutations-in-String.cpp.obj	986ed70e9bc56708
 25	541	7429948551246238	CMakeFiles/Leetcode_Solutions.dir/Linked-List/Reverse-Linked-List_E.cpp.obj	967ca9cd05e7bc33
-24	560	7430746402179665	CMakeFiles/Leetcode_Solutions.dir/Linked-List/Reorder-List_M.cpp.obj	4f0071de35f9efa5
 21	961	7430755902791758	CMakeFiles/Leetcode_Solutions.dir/Linked-List/Reorder-List_M.cpp.obj	4f0071de35f9efa5
-963	1183	7430755912215698	Leetcode_Solutions.exe	5e61fda2ee76e145
+9	793	7431505136957862	CMakeFiles/Leetcode_Solutions.dir/Linked-List/Remove_Nth_Node_From_End_of_List_M.cpp.obj	9e2f782bd6a81d14
+16	374	7431505523143792	build.ninja	64c4c50b0e3cb077
+44	175	7431505524538087	Leetcode_Solutions.exe	709cf1f1adf1046e
