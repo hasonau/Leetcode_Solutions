@@ -25,8 +25,13 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(Leetcode_Solutions "Sliding-Window/Longest-Repeating-Character-Replacement.cpp")
 #add_executable(Leetcode_Solutions "Sliding-Window/Permutations-in-String.cpp" )
 #add_executable(Leetcode_Solutions "Sliding-Window/Minimum-Window-Substring_H.cpp")
+
+
+##############       LINKED LIST PORBLEMS
+
 #add_executable(Leetcode_Solutions "Linked-List/Reverse-Linked-List_E.cpp")
 #add_executable(Leetcode_Solutions "Linked-List/Merge Two Sorted Linked Lists_E.cpp")
 #add_executable(Leetcode_Solutions "Linked-List/Reorder-List_M.cpp")
 #add_executable(Leetcode_Solutions "Linked-List/Remove Nth Node From End of List_M.cpp")
-add_executable(Leetcode_Solutions "Linked-List/Add Two Numbers_M.cpp")
+#add_executable(Leetcode_Solutions "Linked-List/Add Two Numbers_M.cpp")
+add_executable(Leetcode_Solutions "Linked-List/Linked-LIST-CYCLE_E.cpp")
