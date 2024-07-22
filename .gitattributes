@@ -1,0 +1,14 @@
+# Ensure all text files use LF line endings
+* text=auto
+
+# Specify line endings explicitly for certain file types
+*.sh text eol=lf
+*.py text eol=lf
+*.bat text eol=crlf
+*.txt text eol=lf
+*.md text eol=lf
+
+# Optional: Binary files - no conversion
+*.jpg binary
+*.png binary
+*.pdf binary
