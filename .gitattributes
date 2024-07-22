@@ -1,4 +1,4 @@
-# Ensure all text files use LF line endings
+# Ensure all text files use LF line endings..
 * text=auto
 
 # Specify line endings explicitly for certain file types
