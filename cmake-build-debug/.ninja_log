@@ -1,10 +1,3 @@
 # ninja log v6
-5	842	7432550157557548	CMakeFiles/Leetcode_Solutions.dir/Linked-List/Linked-LIST-CYCLE_E.cpp.obj	3a272331698e45d1
-22	510	7432540001945653	CMakeFiles/Leetcode_Solutions.dir/Linked-List/Remove_Nth_Node_From_End_of_List_M.cpp.obj	9e2f782bd6a81d14
-16	395	7432553067035983	build.ninja	64c4c50b0e3cb077
-844	1171	7432550165953820	Leetcode_Solutions.exe	61314b213cbc92c9
-18	582	7432540632076894	CMakeFiles/Leetcode_Solutions.dir/Linked-List/Add_Two_Numbers.cpp.obj	e80f71d66b1f74e2
-24	564	7432541025593114	CMakeFiles/Leetcode_Solutions.dir/Linked-List/Add_Two_Numbers_M.cpp.obj	182ec9f0f85234d7
-8	354	7432553067035983	build.ninja	64c4c50b0e3cb077
-20	671	7432553068157448	CMakeFiles/Leetcode_Solutions.dir/Linked-List/Find_the_Duplicate_Number_M.cpp.obj	b339fdc65db56ce5
+8	354	7433317043216116	build.ninja	64c4c50b0e3cb077
 674	843	7432553074703917	Leetcode_Solutions.exe	5258088bd7aebdc3
