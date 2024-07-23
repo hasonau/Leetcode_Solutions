@@ -9,20 +9,10 @@ class TreeNode:
 
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
-        # Edge case: if the tree is empty
-        if not root:
-            return 0
-
-        # Base case: if the node is a leaf node
-        if not root.right and not root.left:
-            return 1
-
-        # Recursively find the depth of the left and right subtrees
-        leftSide = 1 + self.maxDepth(root.left) if root.left else float("-inf")
-        rightSide = 1 + self.maxDepth(root.right) if root.right else float("-inf")
-
-        # Return the maximum depth from the left and right subtrees
-        return max(leftSide, rightSide)
+            # edge case and base case as well,when tree is empty
+            if not root:
+                return 0
+            return max(1+self.maxDepth(root.left),1+self.maxDepth(root.right))
 
 # Main function for testing
 def main():
