@@ -1,5 +1,4 @@
 # ninja log v6
-8	354	7433367104331087	build.ninja	64c4c50b0e3cb077
-674	843	7432553074703917	Leetcode_Solutions.exe	5258088bd7aebdc3
-3	749	7433367948548471	CMakeFiles/Leetcode_Solutions.dir/Linked-List/Merge-K-Sorted-Lists_H.cpp.obj	d9f71ded57fc13eb
+8	354	7434392540192868	build.ninja	64c4c50b0e3cb077
 751	1115	7433367956028638	Leetcode_Solutions.exe	ca51ce8d064a8679
+3	749	7433367948548471	CMakeFiles/Leetcode_Solutions.dir/Linked-List/Merge-K-Sorted-Lists_H.cpp.obj	d9f71ded57fc13eb

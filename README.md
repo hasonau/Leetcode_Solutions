@@ -1,4 +1,4 @@
-# LEETCODE SOLUTIONS
+# LEETCODE SOLUTIONS 
 
 Welcome to the LEETCODE SOLUTIONS repository! This repository contains solutions to the 150 problems from the Neetcode roadmap. Each problem is solved in either C++ or Python, and the solutions are organized into folders based on the Neetcode sections.
 
@@ -39,7 +39,10 @@ Each folder contains solutions to the problems in that particular section.
 
 ## How to Use
 
-To find the solution to a specific problem, navigate to the corresponding section folder. Each file within the folder is named after the problem it solves. The solutions are implemented in either C++ or Python, as indicated by the file extension.
+To find the solution to a specific problem, navigate to the corresponding 
+section folder. Each file within the folder is named after the problem it 
+solves.The solutions are implemented in either C++ or Python, as indicated 
+by the file extension.
 
 ### Example
 
