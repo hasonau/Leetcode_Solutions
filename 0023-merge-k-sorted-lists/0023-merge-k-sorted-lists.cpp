@@ -1,42 +1,44 @@
+// i did that same mistake i did first time,of not emptying mergedLists,and just appending to it only,which caused infinite loop
 class Solution {
-public:
+private:
+    ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
+        if (!l1) return l2;
+        if (!l2) return l1;
+        ListNode* dummy = new ListNode();
+        ListNode* curr = dummy;
 
-    ListNode* mergeTwoLists(ListNode* l1,ListNode* l2){
-        ListNode* dummy= new ListNode(0);
-        ListNode* curr= dummy;
-
-        while (l1 && l2){
-            ListNode* temp=nullptr;
-            if (l1->val<l2->val){
-                temp = new ListNode(l1->val);
-                l1=l1->next;
+        while (l1 && l2) {
+            if (l1->val < l2->val) {
+                curr->next = l1;
+                l1 = l1->next;
+            } else {
+                curr->next = l2;
+                l2 = l2->next;
             }
-            else{
-                temp = new ListNode(l2->val);
-                l2=l2->next;
-            }
-            curr->next=temp;
-            curr=temp;
+            curr = curr->next;
         }
-        if(l1) curr->next=l1;
-        if(l2) curr->next=l2;
+
+        if (l1) curr->next = l1;
+        if (l2) curr->next = l2;
+
         return dummy->next;
     }
+
+public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        if (lists.empty()) return nullptr;
-        
-        vector<ListNode*>mergedLists;
-        while(lists.size()>1){
-            mergedLists={};
-            for(int i =0; i<lists.size();i+=2){
-                ListNode* list1=lists[i];
-                ListNode* list2= (i + 1 < lists.size()) ? lists[i + 1] : nullptr;
-                mergedLists.push_back(mergeTwoLists(list1,list2));
+        if (lists.empty()) return {};
+        vector<ListNode*> mergedLists;
+
+        while (lists.size() > 1) {
+            mergedLists.clear();
+            for (int i = 0; i < lists.size(); i += 2) {
+                ListNode* l1 = lists[i];
+                ListNode* l2 = (i + 1) < lists.size() ? lists[i + 1] : nullptr;
+                mergedLists.push_back(mergeTwoLists(l1, l2));
             }
-            lists=mergedLists;
+            lists = mergedLists;
         }
 
-    return lists[0];
+        return lists[0];
     }
-
 };
