@@ -11,25 +11,26 @@
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        
         int carry=0;
         int currSum=0;
         ListNode* dummy=new ListNode();
         ListNode* curr=dummy;
-        while (l1 || l2 || carry){
-            
-            currSum = l1 ? l1->val : 0;
-            currSum+=l2 ? l2->val :0;
-            currSum+=carry;
 
+
+        while(l1 || l2 || carry){
+            int val1= l1 ? l1->val :0;
+            int val2= l2 ? l2->val :0;
+
+            currSum=val1+val2+carry;
             carry=currSum/10;
-            currSum=currSum%10;
-            ListNode* temp =new ListNode(currSum);
+            currSum= currSum%10;
+
+            ListNode* temp=new ListNode(currSum);
             curr->next=temp;
             curr=temp;
+            l1 = l1?l1->next:nullptr;
+            l2= l2? l2->next:nullptr;
 
-            if(l1) l1=l1->next;
-            if(l2) l2=l2->next;
         }
 
         return dummy->next;
