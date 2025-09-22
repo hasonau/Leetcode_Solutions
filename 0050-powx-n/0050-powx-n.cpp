@@ -1,23 +1,17 @@
 class Solution {
 public:
-    double myPow(double x, int n) {
-        if (x == 0) {
-            return 0;
-        }
-        if (n == 0) {
-            return 1;
-        }
+    double helper(double x,int n){
+        if (n==1) return x;
 
-        double res = helper(x, abs(static_cast<long>(n)));
-        return (n >= 0) ? res : 1 / res;
+        double res=helper(x,n/2);
+        return n%2==1 ? res*res*x : res*res;
     }
+    double myPow(double x, int n) {
+        // i forgot these two,on the second stage
+        if(x==0) return x;
+        if(n==0) return 1;
 
-private:
-    double helper(double x, long n) {
-        if (n == 0) {
-            return 1;
-        }
-        double half = helper(x, n / 2);
-        return (n % 2 == 0) ? half * half : x * half * half;
+        double res=helper(x,abs(n));
+        return n<0 ? 1/res : res;
     }
 };
