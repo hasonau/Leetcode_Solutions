@@ -4,18 +4,24 @@ public:
         int l=0;
         int r=nums.size()-1;
         int mid;
-
+    // 4,5,6,7,0,1,2 
         while(l<=r){
-            mid=(l+r)/2;
-            // it means we are in left side of our array
-            if(target==nums[mid]) return mid;
-            if(nums[mid]>nums[l]){
-                if(target > nums[mid] || target < nums[l]) l=mid+1;
-                else r=mid-1;
+            mid=l+(r-l)/2;
+            // we are in left side
+            if (nums[mid]==target) return mid;
+            cout<<"nums mid"<<nums[mid]<<endl;
+            cout<<"nums l"<<nums[l]<<endl;
+            cout<<"nums r"<<nums[r]<<endl;
+            if(nums[l]<=nums[mid]){
+                if(target > nums[mid] || target < nums[l]){
+                    l=mid+1;
+                }
+                else{
+                    r=mid-1;
+                }
             }
-            // we are in Right portion of our array
             else{
-                if(target < nums[mid] || target > nums[r]) r=mid-1;
+                if(target > nums[r] || target < nums[mid]) r=mid-1;
                 else l=mid+1;
             }
         }
