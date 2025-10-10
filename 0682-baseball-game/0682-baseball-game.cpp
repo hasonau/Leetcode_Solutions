@@ -1,30 +1,27 @@
 class Solution {
 public:
     int calPoints(vector<string>& operations) {
-        stack<int>s;
+        vector<int>v;
         int result=0;
+
         for(int i=0;i<operations.size();i++){
             if(operations[i]=="+"){
-                int firstVal=s.top();
-                s.pop();
-                int newValue= s.top()+ firstVal;
-                s.push(firstVal);
-                s.push(newValue);
-                result+=newValue;
+                int temp=v[v.size()-1]+v[v.size()-2];
+                result+=temp;
+                v.push_back(temp);
             }
             else if(operations[i]=="D") {
-                int valuetoBePushed=2*s.top();
-                result+=valuetoBePushed;
-                s.push(valuetoBePushed);
+                int temp = v[v.size()-1]*2;
+                result+=temp;
+                v.push_back(temp);
             }
             else if(operations[i]=="C") {
-                int valueTobeRemoved=s.top();
-                result-=valueTobeRemoved;
-                s.pop();
+                result-=v.back();
+                v.pop_back();
             }
             else {
+                v.push_back(stoi(operations[i]));
                 result+=stoi(operations[i]);
-                s.push(stoi(operations[i]));
             }
         }
         return result;
