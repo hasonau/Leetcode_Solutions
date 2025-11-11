@@ -10,37 +10,39 @@
  */
 class Solution {
 public:
-    void reorderList(ListNode* head) {
-        
-        ListNode* slow=head;
-        ListNode* fast=head->next;
-
-        while(fast && fast->next){
-            slow=slow->next;
-            fast=fast->next->next;
-
-        }
-
-        ListNode* prev=nullptr;
-        ListNode* curr=slow->next;
-        slow->next=nullptr;
+    ListNode *reverselinkedlist(ListNode *head){
+        ListNode *prev=nullptr;
+        ListNode *curr=head;
         while(curr){
-            ListNode* next=curr->next;
+            ListNode *next=curr->next;
             curr->next=prev;
             prev=curr;
             curr=next;
         }
-        ListNode* first=head;
-        ListNode* second=prev;
+        return prev;
+    }
+    void reorderList(ListNode* head) {
+        ListNode *slow=head;
+        ListNode *fast=head->next;
 
+        while(fast && fast->next){
+            slow=slow->next;
+            fast=fast->next->next;
+        }
+        // start point of second part of linkedlist is slow->next
+        ListNode *curr = slow->next;
+        slow->next=nullptr;
+        ListNode *second = reverselinkedlist(curr);
+        ListNode *first=head;
+
+        // beaware of the linking
         while(second){
-            ListNode* next=first->next;
+            ListNode *firstNext=first->next;
             first->next=second;
-            ListNode* secondNext=second->next;
-            second->next=next;
-            first=next;
+            ListNode *secondNext=second->next;
+            second->next=firstNext;
+            first=firstNext;
             second=secondNext;
         }
-
     }
 };
