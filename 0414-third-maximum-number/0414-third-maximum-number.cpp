@@ -1,16 +1,25 @@
 class Solution {
 public:
     int thirdMax(vector<int>& nums) {
-        priority_queue<int>pq(nums.begin(),nums.end());
-        unordered_set<int>unS;
-        int poppedvalue;
-        int maximum_number=pq.top();
-        while(pq.size()>0){
-            poppedvalue=pq.top();
-            pq.pop();
-            unS.insert(poppedvalue);
-            if(unS.size()==3) return poppedvalue;
+        
+        long long first = LLONG_MIN, second = LLONG_MIN, third = LLONG_MIN;
+
+        for(int num : nums){
+            if( num==first || num==second ||num==third ) continue;
+
+            if(num>first){
+                third=second;
+                second=first;
+                first=num;
+            }
+            else if(num>second){
+                third=second;
+                second=num;
+            }
+            else if(num>third){
+                third=num;
+            }
         }
-        return maximum_number;
+        return third!=LLONG_MIN ? third : first;
     }
 };
