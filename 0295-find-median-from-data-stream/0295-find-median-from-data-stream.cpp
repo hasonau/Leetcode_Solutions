@@ -1,29 +1,53 @@
 class MedianFinder {
 
 public:
-    vector<int>v;
+    priority_queue<int>maxHeap;
+    priority_queue<int,vector<int>,greater<int>>minHeap;
     MedianFinder() {
        
     }
     
+    //////////////////////////////////////////////////
+    //i was over  complicating it,so gpt told me to do it the right way,which is down there,
+    // uncommented one
     // void addNum(int num) {
-    //     v.push_back(num);
-    //     sort(v.begin(),v.end());
-    // }
+    //         if(maxHeap.empty() || maxHeap.top()>num){
+    //             maxHeap.push(num);
+    //         }
+    //         else if (minHeap.size()==maxHeap.size() && !maxHeap.empty() && maxHeap.top()<=num){
+    //             minHeap.push(num);
+    //         }
+    //         if(abs((int)(maxHeap.size() - minHeap.size()))>1){
+    //             if(maxHeap.size()>minHeap.size()){
+    //                 minHeap.push(maxHeap.top());
+    //                 maxHeap.pop();
+    //             }
+    //             else{
+    //                 maxHeap.push(minHeap.top());
+    //                 minHeap.pop();
+    //             }
+    //         }
+    //     }
     void addNum(int num) {
-            auto it = lower_bound(v.begin(), v.end(), num);
-            v.insert(it, num);
+        if(maxHeap.empty() || num <= maxHeap.top()){
+            maxHeap.push(num);
         }
+        else{
+            minHeap.push(num);
+        }
+
+        if(maxHeap.size() > minHeap.size() + 1){
+            minHeap.push(maxHeap.top());
+            maxHeap.pop();
+        }
+        else if(minHeap.size() > maxHeap.size() + 1){
+            maxHeap.push(minHeap.top());
+            minHeap.pop();
+        }
+    }
     double findMedian() {
-        if(v.size()==1) return v[0];
-        
-        int theIndex=v.size()/2;
-        if(v.size()%2==0){
-            return (v[theIndex]+v[theIndex-1])/2.0;
-        }
-        if(v.size()%2==1){
-            return v[theIndex];
-        }
-        return 0;
+       if(minHeap.size()>maxHeap.size()) return minHeap.top();
+       else if(maxHeap.size()>minHeap.size()) return maxHeap.top();
+       else return (maxHeap.top()+ minHeap.top())/2.0;
     }
 };
