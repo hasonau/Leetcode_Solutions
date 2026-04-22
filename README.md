@@ -82,6 +82,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0502-ipo](https://github.com/hasonau/Leetcode_Solutions/tree/main/0502-ipo/) | Hard |
 | [0649-dota2-senate](https://github.com/hasonau/Leetcode_Solutions/tree/main/0649-dota2-senate/) | Medium |
 ## Queue
 | Problem Name | Difficulty |
@@ -94,6 +95,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0150-evaluate-reverse-polish-notation](https://github.com/hasonau/Leetcode_Solutions/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0239-sliding-window-maximum](https://github.com/hasonau/Leetcode_Solutions/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0414-third-maximum-number](https://github.com/hasonau/Leetcode_Solutions/tree/main/0414-third-maximum-number/) | Easy |
+| [0502-ipo](https://github.com/hasonau/Leetcode_Solutions/tree/main/0502-ipo/) | Hard |
 | [0739-daily-temperatures](https://github.com/hasonau/Leetcode_Solutions/tree/main/0739-daily-temperatures/) | Medium |
 | [1046-last-stone-weight](https://github.com/hasonau/Leetcode_Solutions/tree/main/1046-last-stone-weight/) | Easy |
 ## Sliding Window
@@ -105,6 +107,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | ------- | ------- |
 | [0239-sliding-window-maximum](https://github.com/hasonau/Leetcode_Solutions/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0295-find-median-from-data-stream](https://github.com/hasonau/Leetcode_Solutions/tree/main/0295-find-median-from-data-stream/) | Hard |
+| [0502-ipo](https://github.com/hasonau/Leetcode_Solutions/tree/main/0502-ipo/) | Hard |
 | [0703-kth-largest-element-in-a-stream](https://github.com/hasonau/Leetcode_Solutions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [1046-last-stone-weight](https://github.com/hasonau/Leetcode_Solutions/tree/main/1046-last-stone-weight/) | Easy |
 ## Monotonic Queue
@@ -137,6 +140,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | ------- | ------- |
 | [0295-find-median-from-data-stream](https://github.com/hasonau/Leetcode_Solutions/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0414-third-maximum-number](https://github.com/hasonau/Leetcode_Solutions/tree/main/0414-third-maximum-number/) | Easy |
+| [0502-ipo](https://github.com/hasonau/Leetcode_Solutions/tree/main/0502-ipo/) | Hard |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
