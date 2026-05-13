@@ -92,6 +92,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0053-maximum-subarray](https://github.com/hasonau/Leetcode_Solutions/tree/main/0053-maximum-subarray/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/hasonau/Leetcode_Solutions/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0239-sliding-window-maximum](https://github.com/hasonau/Leetcode_Solutions/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0414-third-maximum-number](https://github.com/hasonau/Leetcode_Solutions/tree/main/0414-third-maximum-number/) | Easy |
@@ -162,4 +163,12 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0295-find-median-from-data-stream](https://github.com/hasonau/Leetcode_Solutions/tree/main/0295-find-median-from-data-stream/) | Hard |
+## Divide and Conquer
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0053-maximum-subarray](https://github.com/hasonau/Leetcode_Solutions/tree/main/0053-maximum-subarray/) | Medium |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0053-maximum-subarray](https://github.com/hasonau/Leetcode_Solutions/tree/main/0053-maximum-subarray/) | Medium |
 <!---LeetCode Topics End-->
