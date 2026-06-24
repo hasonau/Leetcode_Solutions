@@ -100,6 +100,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0414-third-maximum-number](https://github.com/hasonau/Leetcode_Solutions/tree/main/0414-third-maximum-number/) | Easy |
 | [0502-ipo](https://github.com/hasonau/Leetcode_Solutions/tree/main/0502-ipo/) | Hard |
 | [0739-daily-temperatures](https://github.com/hasonau/Leetcode_Solutions/tree/main/0739-daily-temperatures/) | Medium |
+| [0746-min-cost-climbing-stairs](https://github.com/hasonau/Leetcode_Solutions/tree/main/0746-min-cost-climbing-stairs/) | Easy |
 | [0846-hand-of-straights](https://github.com/hasonau/Leetcode_Solutions/tree/main/0846-hand-of-straights/) | Medium |
 | [1046-last-stone-weight](https://github.com/hasonau/Leetcode_Solutions/tree/main/1046-last-stone-weight/) | Easy |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/hasonau/Leetcode_Solutions/tree/main/1899-merge-triplets-to-form-target-triplet/) | Medium |
@@ -178,6 +179,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | ------- | ------- |
 | [0053-maximum-subarray](https://github.com/hasonau/Leetcode_Solutions/tree/main/0053-maximum-subarray/) | Medium |
 | [0070-climbing-stairs](https://github.com/hasonau/Leetcode_Solutions/tree/main/0070-climbing-stairs/) | Easy |
+| [0746-min-cost-climbing-stairs](https://github.com/hasonau/Leetcode_Solutions/tree/main/0746-min-cost-climbing-stairs/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
