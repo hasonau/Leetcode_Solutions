@@ -138,6 +138,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | ------- | ------- |
 | [0070-climbing-stairs](https://github.com/hasonau/Leetcode_Solutions/tree/main/0070-climbing-stairs/) | Easy |
 | [0150-evaluate-reverse-polish-notation](https://github.com/hasonau/Leetcode_Solutions/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
+| [0263-ugly-number](https://github.com/hasonau/Leetcode_Solutions/tree/main/0263-ugly-number/) | Easy |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
