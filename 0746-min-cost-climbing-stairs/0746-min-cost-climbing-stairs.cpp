@@ -1,25 +1,16 @@
+//  Bottom up approach,DP
 class Solution {
 public:
-    
-    int recursive(int index,vector<int> &cost,int n){
-        // base case,means,we have already reached the top,return 0
-        if(index >= n) return 0;
-
-        // // help of memoized values
-        if(dp.find(index)!=dp.end()) return dp[index];
-        
-        // // memoization step
-        dp[index]= cost[index] + min(recursive(index+1,cost,n),recursive(index+2,cost,n));
-
-        return dp[index];
-        return cost[index] + min(recursive(index+1,cost,n),recursive(index+2,cost,n));
-    }
-
-
-    unordered_map<int,int>dp;
     int minCostClimbingStairs(vector<int>& cost) {
-        int n = cost.size();
-        int index = 0;
-        return min(recursive(index,cost,n),recursive(index+1,cost,n));
+        
+        int dp[] = {cost[cost.size()-2],cost[cost.size()-1]};
+        int i = cost.size()-3;
+        while(i>=0){
+            int temp=dp[0];
+            dp[0] = min(dp[0],dp[1]) + cost[i];
+            dp[1] = temp;
+            i--;
+        }
+        return min(dp[0],dp[1]);
     }
 };
