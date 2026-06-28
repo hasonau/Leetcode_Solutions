@@ -79,6 +79,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/hasonau/Leetcode_Solutions/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0020-valid-parentheses](https://github.com/hasonau/Leetcode_Solutions/tree/main/0020-valid-parentheses/) | Easy |
+| [0647-palindromic-substrings](https://github.com/hasonau/Leetcode_Solutions/tree/main/0647-palindromic-substrings/) | Medium |
 | [0649-dota2-senate](https://github.com/hasonau/Leetcode_Solutions/tree/main/0649-dota2-senate/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
@@ -175,6 +176,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/hasonau/Leetcode_Solutions/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0295-find-median-from-data-stream](https://github.com/hasonau/Leetcode_Solutions/tree/main/0295-find-median-from-data-stream/) | Hard |
+| [0647-palindromic-substrings](https://github.com/hasonau/Leetcode_Solutions/tree/main/0647-palindromic-substrings/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -187,6 +189,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0070-climbing-stairs](https://github.com/hasonau/Leetcode_Solutions/tree/main/0070-climbing-stairs/) | Easy |
 | [0198-house-robber](https://github.com/hasonau/Leetcode_Solutions/tree/main/0198-house-robber/) | Medium |
 | [0213-house-robber-ii](https://github.com/hasonau/Leetcode_Solutions/tree/main/0213-house-robber-ii/) | Medium |
+| [0647-palindromic-substrings](https://github.com/hasonau/Leetcode_Solutions/tree/main/0647-palindromic-substrings/) | Medium |
 | [0746-min-cost-climbing-stairs](https://github.com/hasonau/Leetcode_Solutions/tree/main/0746-min-cost-climbing-stairs/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
