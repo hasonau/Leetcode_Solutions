@@ -1,19 +1,16 @@
-// that is the top to bottom DP,cause it has memoization,although 
-// many would say that's not actual DP
-
 class Solution {
 public:
-    unordered_map<int,int>cache;
+     vector<int>dp = vector<int>(46,-1);
+     int recursive(int i,int n){
+        if(i==n) return 1;
 
-    int helper(int n){
-        if(n==0 | n==1) return 1;
-        if(cache.find(n)!=cache.end()) return cache[n];
+        if(i>n) return 0;
+        if(dp[i]!=-1) return dp[i];
 
-        cache[n]=helper(n-1)+helper(n-2);
-        return cache[n];
+        return dp[i] = recursive(i+1,n)+recursive(i+2,n);
+
     }
     int climbStairs(int n) {
-
-        return helper(n);
+        return recursive(0,n);
     }
 };
