@@ -1,13 +1,11 @@
 class Solution {
 public:
+    vector<int> dp = vector<int>(31, -1);
     int fib(int n) {
         if(n<=1) return n;
-        vector<int> v(n+1,-1);
-        v[0]=0;
-        v[1]=1;
+        if(dp[n]!=-1) return dp[n];
 
-        for(int i=2;i<=n;i++) v[i] = v[i-1]+v[i-2];
-        return v[v.size()-1];
-        
+
+        return dp[n] = fib(n-1)+fib(n-2);
     }
 };
