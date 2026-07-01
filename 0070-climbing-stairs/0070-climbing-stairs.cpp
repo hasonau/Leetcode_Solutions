@@ -1,16 +1,15 @@
 class Solution {
 public:
-     vector<int>dp = vector<int>(46,-1);
-     int recursive(int i,int n){
-        if(i==n) return 1;
-
-        if(i>n) return 0;
-        if(dp[i]!=-1) return dp[i];
-
-        return dp[i] = recursive(i+1,n)+recursive(i+2,n);
-
-    }
     int climbStairs(int n) {
-        return recursive(0,n);
+        if (n<=1) return 1;
+        int left=1; int right =1;
+        int i=2;
+        while(i<=n){
+            int temp = left+right;
+            left=right;
+            right=temp;
+            i++;
+        }
+        return right;
     }
 };
