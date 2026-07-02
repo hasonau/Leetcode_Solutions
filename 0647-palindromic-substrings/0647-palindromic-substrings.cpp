@@ -1,26 +1,20 @@
 class Solution {
 public:
-    
-
-
-
-    int outwardFromCenter(string &s, int i, int j){
-        int result=0;
-        while(i >= 0 && j < s.size() && s[i] == s[j]){
-            result+=1;
-            i--;
-            j++;
+    bool isPalindrome(string& s,int i,int j){
+        while(i<=j && s[i]==s[j]){
+            i++;
+            j--;
         }
-        return result;
+        return i>j;
     }
-
-    int countSubstrings (string s) {
-        if(s.size()==1) return 1; 
-        int result=0;
-        for(int i=0;i<s.size();i++){ 
-            result += outwardFromCenter(s,i,i);
-            result += outwardFromCenter(s,i,i+1);
+    int countSubstrings(string s) {
+        int count=0;
+        for(int i=0;i<s.size();i++){
+            count++;
+            for(int j=i+1;j<s.size();j++){
+                if(isPalindrome(s,i,j)) count++;
+            }
         }
-        return result;
+        return count;
     }
 };
