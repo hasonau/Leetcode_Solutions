@@ -3,7 +3,7 @@ public:
     int countSubstrings(string s) {
         
         int dp[1001][1001];
-        memset(dp,-1,sizeof(dp));
+        memset(dp,0,sizeof(dp));
         int count=0;
         // setting it for the first single character palindromes to be 1,always,
         // and checking two character palindromes and also setting them to dp,these are building blocks for later ones
