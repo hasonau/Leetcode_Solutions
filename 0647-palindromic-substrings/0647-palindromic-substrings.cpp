@@ -1,19 +1,20 @@
 class Solution {
 public:
-    bool isPalindrome(string& s,int i,int j){
-        while(i<=j && s[i]==s[j]){
-            i++;
-            j--;
+
+    int outFromCenter(string& s, int i ,int j){
+        int count=0;
+        while(i>=0 && j<=s.size()-1 && s[i]==s[j]){
+            count++;
+            i--;
+            j++;
         }
-        return i>j;
+        return count;
     }
+
     int countSubstrings(string s) {
         int count=0;
         for(int i=0;i<s.size();i++){
-            count++;
-            for(int j=i+1;j<s.size();j++){
-                if(isPalindrome(s,i,j)) count++;
-            }
+                count+=(outFromCenter(s,i,i)+outFromCenter(s,i,i+1));
         }
         return count;
     }
