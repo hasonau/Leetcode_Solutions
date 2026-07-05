@@ -1,34 +1,29 @@
 class Solution {
 public:
-
-    vector<int> dp;
-
-    int recursive(int index, string &s){
-        if(index == s.size()) return 1;
-
-        if(dp[index] != -1) return dp[index];
-
-        // invalid case
-        if(s[index] == '0') return dp[index] = 0;
-
-        int result = 0;
-
-        result += recursive(index + 1, s);
-
-        if(index + 1 < s.size()) {
-            int num = (s[index] - '0') * 10 + (s[index + 1] - '0');
-
-            if(num >= 10 && num <= 26) {
-                result += recursive(index + 2, s);
-            }
+    int t[101];
+    
+    int recursive(string& s,int i,int n){
+        if(i >= n) return 1;
+        if(s[i]== '0') return 0;
+        if(t[i]!=-1) return t[i];
+        // if(s.substr(i,length) - 'Z')> 26 return 0; i know the syntax is wrong, iam just writing it for this momemt to make u understan what ii am trying to do
+       
+        int left = recursive(s,i+1,n);
+        int right=0;
+        if(i + 1 < n){
+            int num = (s[i] - '0') * 10 + (s[i + 1] - '0');
+            if(num <= 26) right = recursive(s, i + 2, n);
         }
 
-        return dp[index] = result;
+        return t[i] = left+right;
     }
-
     int numDecodings(string s) {
-        int n = s.size();
-        dp.assign(n + 1, -1);
-        return recursive(0, s);
+        memset(t,-1,sizeof(t));
+        if(s.size()==1 && s[0]=='0') return 0;
+        else if(s.size()==1) return 1;
+
+
+        int n= s.size();
+        return recursive(s,0,n);
     }
 };
