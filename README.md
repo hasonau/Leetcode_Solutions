@@ -82,6 +82,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0091-decode-ways](https://github.com/hasonau/Leetcode_Solutions/tree/main/0091-decode-ways/) | Medium |
 | [0647-palindromic-substrings](https://github.com/hasonau/Leetcode_Solutions/tree/main/0647-palindromic-substrings/) | Medium |
 | [0649-dota2-senate](https://github.com/hasonau/Leetcode_Solutions/tree/main/0649-dota2-senate/) | Medium |
+| [1048-longest-string-chain](https://github.com/hasonau/Leetcode_Solutions/tree/main/1048-longest-string-chain/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -112,6 +113,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0746-min-cost-climbing-stairs](https://github.com/hasonau/Leetcode_Solutions/tree/main/0746-min-cost-climbing-stairs/) | Easy |
 | [0846-hand-of-straights](https://github.com/hasonau/Leetcode_Solutions/tree/main/0846-hand-of-straights/) | Medium |
 | [1046-last-stone-weight](https://github.com/hasonau/Leetcode_Solutions/tree/main/1046-last-stone-weight/) | Easy |
+| [1048-longest-string-chain](https://github.com/hasonau/Leetcode_Solutions/tree/main/1048-longest-string-chain/) | Medium |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/hasonau/Leetcode_Solutions/tree/main/1899-merge-triplets-to-form-target-triplet/) | Medium |
 | [1911-maximum-alternating-subsequence-sum](https://github.com/hasonau/Leetcode_Solutions/tree/main/1911-maximum-alternating-subsequence-sum/) | Medium |
 ## Sliding Window
@@ -162,6 +164,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0502-ipo](https://github.com/hasonau/Leetcode_Solutions/tree/main/0502-ipo/) | Hard |
 | [0646-maximum-length-of-pair-chain](https://github.com/hasonau/Leetcode_Solutions/tree/main/0646-maximum-length-of-pair-chain/) | Medium |
 | [0846-hand-of-straights](https://github.com/hasonau/Leetcode_Solutions/tree/main/0846-hand-of-straights/) | Medium |
+| [1048-longest-string-chain](https://github.com/hasonau/Leetcode_Solutions/tree/main/1048-longest-string-chain/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -186,6 +189,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0005-longest-palindromic-substring](https://github.com/hasonau/Leetcode_Solutions/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0295-find-median-from-data-stream](https://github.com/hasonau/Leetcode_Solutions/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0647-palindromic-substrings](https://github.com/hasonau/Leetcode_Solutions/tree/main/0647-palindromic-substrings/) | Medium |
+| [1048-longest-string-chain](https://github.com/hasonau/Leetcode_Solutions/tree/main/1048-longest-string-chain/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -205,11 +209,13 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0646-maximum-length-of-pair-chain](https://github.com/hasonau/Leetcode_Solutions/tree/main/0646-maximum-length-of-pair-chain/) | Medium |
 | [0647-palindromic-substrings](https://github.com/hasonau/Leetcode_Solutions/tree/main/0647-palindromic-substrings/) | Medium |
 | [0746-min-cost-climbing-stairs](https://github.com/hasonau/Leetcode_Solutions/tree/main/0746-min-cost-climbing-stairs/) | Easy |
+| [1048-longest-string-chain](https://github.com/hasonau/Leetcode_Solutions/tree/main/1048-longest-string-chain/) | Medium |
 | [1911-maximum-alternating-subsequence-sum](https://github.com/hasonau/Leetcode_Solutions/tree/main/1911-maximum-alternating-subsequence-sum/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0846-hand-of-straights](https://github.com/hasonau/Leetcode_Solutions/tree/main/0846-hand-of-straights/) | Medium |
+| [1048-longest-string-chain](https://github.com/hasonau/Leetcode_Solutions/tree/main/1048-longest-string-chain/) | Medium |
 ## Memoization
 | Problem Name | Difficulty |
 | ------- | ------- |
