@@ -108,6 +108,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0300-longest-increasing-subsequence](https://github.com/hasonau/Leetcode_Solutions/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/hasonau/Leetcode_Solutions/tree/main/0322-coin-change/) | Medium |
 | [0414-third-maximum-number](https://github.com/hasonau/Leetcode_Solutions/tree/main/0414-third-maximum-number/) | Easy |
+| [0416-partition-equal-subset-sum](https://github.com/hasonau/Leetcode_Solutions/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0502-ipo](https://github.com/hasonau/Leetcode_Solutions/tree/main/0502-ipo/) | Hard |
 | [0646-maximum-length-of-pair-chain](https://github.com/hasonau/Leetcode_Solutions/tree/main/0646-maximum-length-of-pair-chain/) | Medium |
 | [0739-daily-temperatures](https://github.com/hasonau/Leetcode_Solutions/tree/main/0739-daily-temperatures/) | Medium |
@@ -208,6 +209,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0213-house-robber-ii](https://github.com/hasonau/Leetcode_Solutions/tree/main/0213-house-robber-ii/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/hasonau/Leetcode_Solutions/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/hasonau/Leetcode_Solutions/tree/main/0322-coin-change/) | Medium |
+| [0416-partition-equal-subset-sum](https://github.com/hasonau/Leetcode_Solutions/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0509-fibonacci-number](https://github.com/hasonau/Leetcode_Solutions/tree/main/0509-fibonacci-number/) | Easy |
 | [0646-maximum-length-of-pair-chain](https://github.com/hasonau/Leetcode_Solutions/tree/main/0646-maximum-length-of-pair-chain/) | Medium |
 | [0647-palindromic-substrings](https://github.com/hasonau/Leetcode_Solutions/tree/main/0647-palindromic-substrings/) | Medium |
