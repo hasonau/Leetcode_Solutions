@@ -2,17 +2,17 @@ class Solution {
 public:
     int half;
     int t[201][20001];
-    bool recursive(int i,int currentSum,vector<int>& nums){
-        if(i>= nums.size()) return 0;
+    bool recursive(int n,int currentSum,vector<int>& nums){
+        if(n==0) return 0;
         if(currentSum == half) return 1;
-        if(t[i][currentSum]!=-1) return t[i][currentSum];
+        if(t[n-1][currentSum]!=-1) return t[n-1][currentSum];
 
         int take=0;
-        if(nums[i]+currentSum <= half) take = recursive(i+1,currentSum+nums[i],nums);
+        if(nums[n-1]+currentSum <= half) take = recursive(n-1,currentSum+nums[n-1],nums);
 
-        int skip = recursive(i+1,currentSum,nums);
+        int skip = recursive(n-1,currentSum,nums);
 
-        return t[i][currentSum] = take || skip;
+        return t[n-1][currentSum] = take || skip;
     }
     bool canPartition(vector<int>& nums) {
         int total=0;
@@ -22,6 +22,6 @@ public:
         }
         if(total % 2==1) return false;
         half = total/ 2 ;
-        return recursive(0,0,nums);
+        return recursive(nums.size(),0,nums);
     }
 };
