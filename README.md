@@ -102,6 +102,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | ------- | ------- |
 | [0053-maximum-subarray](https://github.com/hasonau/Leetcode_Solutions/tree/main/0053-maximum-subarray/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/hasonau/Leetcode_Solutions/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
+| [0152-maximum-product-subarray](https://github.com/hasonau/Leetcode_Solutions/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0198-house-robber](https://github.com/hasonau/Leetcode_Solutions/tree/main/0198-house-robber/) | Medium |
 | [0213-house-robber-ii](https://github.com/hasonau/Leetcode_Solutions/tree/main/0213-house-robber-ii/) | Medium |
 | [0239-sliding-window-maximum](https://github.com/hasonau/Leetcode_Solutions/tree/main/0239-sliding-window-maximum/) | Hard |
@@ -205,6 +206,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0053-maximum-subarray](https://github.com/hasonau/Leetcode_Solutions/tree/main/0053-maximum-subarray/) | Medium |
 | [0070-climbing-stairs](https://github.com/hasonau/Leetcode_Solutions/tree/main/0070-climbing-stairs/) | Easy |
 | [0091-decode-ways](https://github.com/hasonau/Leetcode_Solutions/tree/main/0091-decode-ways/) | Medium |
+| [0152-maximum-product-subarray](https://github.com/hasonau/Leetcode_Solutions/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0198-house-robber](https://github.com/hasonau/Leetcode_Solutions/tree/main/0198-house-robber/) | Medium |
 | [0213-house-robber-ii](https://github.com/hasonau/Leetcode_Solutions/tree/main/0213-house-robber-ii/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/hasonau/Leetcode_Solutions/tree/main/0300-longest-increasing-subsequence/) | Medium |
