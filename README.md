@@ -107,6 +107,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0150-evaluate-reverse-polish-notation](https://github.com/hasonau/Leetcode_Solutions/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0152-maximum-product-subarray](https://github.com/hasonau/Leetcode_Solutions/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0198-house-robber](https://github.com/hasonau/Leetcode_Solutions/tree/main/0198-house-robber/) | Medium |
+| [0200-number-of-islands](https://github.com/hasonau/Leetcode_Solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0213-house-robber-ii](https://github.com/hasonau/Leetcode_Solutions/tree/main/0213-house-robber-ii/) | Medium |
 | [0239-sliding-window-maximum](https://github.com/hasonau/Leetcode_Solutions/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0300-longest-increasing-subsequence](https://github.com/hasonau/Leetcode_Solutions/tree/main/0300-longest-increasing-subsequence/) | Medium |
@@ -239,6 +240,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0200-number-of-islands](https://github.com/hasonau/Leetcode_Solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0322-coin-change](https://github.com/hasonau/Leetcode_Solutions/tree/main/0322-coin-change/) | Medium |
 ## Recursion
 | Problem Name | Difficulty |
@@ -252,4 +254,16 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0139-word-break](https://github.com/hasonau/Leetcode_Solutions/tree/main/0139-word-break/) | Medium |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0200-number-of-islands](https://github.com/hasonau/Leetcode_Solutions/tree/main/0200-number-of-islands/) | Medium |
+## Union-Find
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0200-number-of-islands](https://github.com/hasonau/Leetcode_Solutions/tree/main/0200-number-of-islands/) | Medium |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0200-number-of-islands](https://github.com/hasonau/Leetcode_Solutions/tree/main/0200-number-of-islands/) | Medium |
 <!---LeetCode Topics End-->
