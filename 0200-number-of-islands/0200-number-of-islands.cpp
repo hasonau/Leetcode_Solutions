@@ -1,39 +1,38 @@
 class Solution {
 public:
-    int Rows;
-    int Columns;
-    void dfs(int i, int j,vector<vector<char>>& grid){
-        // base case for OUT OF BOUND
-        if(i < 0 || i >= Rows || j < 0 || j >= Columns || grid[i][j]=='0' || grid[i][j]=='2') return ;
+    void recursive(int i,int j,vector<vector<char>>& grid){
+        int r =grid.size();
+        int c =grid[0].size();
 
+        if(i < 0 || i >=r || j < 0 || j >= c || grid[i][j]!='1') return;
+        // setting grid[i][j] to visited,meaning water here
 
-        grid[i][j] = '2';
-        // all four sides calls
-        dfs(i-1,j,grid);
-        dfs(i+1,j,grid);
-        dfs(i,j-1,grid);
-        dfs(i,j+1,grid);
+        grid[i][j]='0';
 
-        return;
+        vector<pair<int,int>> directions = {
+            {-1,0}, // up
+            {1,0},  // down
+            {0,1},  // right
+            {0,-1}  // left
+        };
+
+        for(pair<int,int>& direction :directions){
+            recursive(i+direction.first,j+direction.second,grid);
+        }
+        return ;
     }
-
     int numIslands(vector<vector<char>>& grid) {
-        // variables used in recursion
-        Rows = grid.size();
-        Columns = grid[0].size();
-        // result variable
-        int resultCount=0;
-
-        for(int i = 0; i < Rows;i++){
-            for(int j = 0; j < Columns ; j++){
-                if( grid[i][j] == '1'){
-                    // only increase the first time,all the recursion stuff is 
-                    // to make this a complete island,but it still is one island,
-                    resultCount++;
-                    dfs(i,j,grid);
+        int r =grid.size();
+        int c =grid[0].size();
+        int count =0;
+        for(int i=0;i < r;i++){
+            for(int j=0;j<c;j++){
+                if( grid[i][j]== '1'){
+                    recursive(i,j,grid);
+                    count++;
                 }
             }
         }
-        return resultCount;
+        return count;
     }
 };
