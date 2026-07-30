@@ -1,38 +1,41 @@
+
 class Solution {
 public:
-    void recursive(int i,int j,vector<vector<char>>& grid){
-        int r =grid.size();
-        int c =grid[0].size();
+    void recursiveDFS(int i, int j,vector<vector<char>>& isConnected){
+        int r = isConnected.size();
+        int c = isConnected[0].size();
 
-        if(i < 0 || i >=r || j < 0 || j >= c || grid[i][j]!='1') return;
-        // setting grid[i][j] to visited,meaning water here
+        if(i < 0 || i >= r || j < 0 || j >= c || isConnected[i][j]!= '1') return ;
 
-        grid[i][j]='0';
-
+        isConnected[i][j] = '0';
         vector<pair<int,int>> directions = {
-            {-1,0}, // up
-            {1,0},  // down
-            {0,1},  // right
-            {0,-1}  // left
+            {1,0},
+            {0,1},
+            {-1,0},
+            {0,-1}
         };
-
-        for(pair<int,int>& direction :directions){
-            recursive(i+direction.first,j+direction.second,grid);
+        for (auto direction : directions){
+            int first = direction.first;
+            int second = direction.second;
+            // cout<<"calling recursive "<<endl;
+            recursiveDFS(i + first,j + second,isConnected);
         }
+
         return ;
     }
-    int numIslands(vector<vector<char>>& grid) {
-        int r =grid.size();
-        int c =grid[0].size();
-        int count =0;
-        for(int i=0;i < r;i++){
-            for(int j=0;j<c;j++){
-                if( grid[i][j]== '1'){
-                    recursive(i,j,grid);
-                    count++;
+    int numIslands(vector<vector<char>>& isConnected) {
+        int r = isConnected.size();
+        int c = isConnected[0].size();
+        // always remember to initialize ,otherwise random results keep popping
+        int provincesCount=0;
+        for(int i=0;i < r ; i++ ){
+            for(int j=0; j < c ; j++ ){
+                if(isConnected[i][j]!= '0'){
+                    provincesCount++;
+                    recursiveDFS(i,j,isConnected);
                 }
             }
         }
-        return count;
+        return provincesCount;
     }
 };
