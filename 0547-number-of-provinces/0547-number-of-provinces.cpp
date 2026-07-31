@@ -1,41 +1,43 @@
 class Solution {
 public:
-    unordered_set<int> s;
-    void recursiveDFS(int u,unordered_map<int,vector<int>>& adj){
+    void recursiveBFS(int u , unordered_map<int,vector<int>>& adj,vector<bool>& visited){
+        if(visited[u]) return ;
 
-        s.insert(u);
-        for(int& v : adj[u]){
-            if(v && (s.find(v) == s.end())){
-                recursiveDFS(v,adj);
+        queue<int>q;
+        q.push(u);
+        visited[u]= true;
+        
+        while(!q.empty()){
+            u = q.front();
+            q.pop();
+
+            for(int& v : adj[u]){
+                if(!visited[v]) recursiveBFS(v,adj,visited);
             }
         }
         return ;
     }
-    int findCircleNum(vector<vector<int>>& isConnected) {
-        int r = isConnected.size();
-        int c = isConnected[0].size();
-        // always remember to initialize ,otherwise random results keep popping
-        int provincesCount=0;
-        unordered_map<int,vector<int>> adj(r);
 
-        for(int i = 0; i < r; i++) {
-            for(int j = 0; j < c; j++) {
-                if(isConnected[i][j] == 1 && i != j) {
-                    // avoiding the self edge,for better dfs traversal later on
-                    if(i!=j){
-                        adj[i].push_back(j);
-                        adj[j].push_back(i);
-                    }
+    int findCircleNum(vector<vector<int>>& isConnected) {
+        int r= isConnected.size();
+        int c= isConnected[0].size();
+        int count = 0;
+        unordered_map<int,vector<int>> adj;
+
+        for(int i = 0 ;i < r ;i++){
+            for(int j = 0; j < c ; j++){
+                if(isConnected[i][j]==1){
+                    adj[i].push_back(j);
+                    adj[j].push_back(i);
                 }
             }
         }
 
-        for(int i = 0; i < r; i++) {
-            if(s.find(i) == s.end()) {
-                provincesCount++;
-                recursiveDFS(i, adj);
-            }
+        vector<bool> visited(r,false);
+
+        for(int i=0;i< r;i++){
+            if(!visited[i]) {count++; recursiveBFS(i,adj,visited);}
         }
-        return provincesCount;
+        return count;
     }
 };
