@@ -5,14 +5,19 @@ public:
 
         queue<int>q;
         q.push(u);
-        visited[u]= true;
+        visited[u] = true;
         
         while(!q.empty()){
             u = q.front();
             q.pop();
 
             for(int& v : adj[u]){
-                if(!visited[v]) recursiveBFS(v,adj,visited);
+                if(!visited[v]){
+                    visited[v]= true;
+                    q.push(v);
+
+                }
+                
             }
         }
         return ;
