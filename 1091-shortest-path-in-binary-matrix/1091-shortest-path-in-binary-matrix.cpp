@@ -31,7 +31,7 @@ public:
             while(count < queue_size){
                 auto [i,j] = q.front();
                 q.pop();
-                visited[i][j] = true;
+                // visited[i][j] = true;
 
                 for (auto direction : directions){
                     int new_i = i + direction.first;
