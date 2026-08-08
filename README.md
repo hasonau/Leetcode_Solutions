@@ -80,6 +80,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0005-longest-palindromic-substring](https://github.com/hasonau/Leetcode_Solutions/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0020-valid-parentheses](https://github.com/hasonau/Leetcode_Solutions/tree/main/0020-valid-parentheses/) | Easy |
 | [0091-decode-ways](https://github.com/hasonau/Leetcode_Solutions/tree/main/0091-decode-ways/) | Medium |
+| [0127-word-ladder](https://github.com/hasonau/Leetcode_Solutions/tree/main/0127-word-ladder/) | Hard |
 | [0139-word-break](https://github.com/hasonau/Leetcode_Solutions/tree/main/0139-word-break/) | Medium |
 | [0647-palindromic-substrings](https://github.com/hasonau/Leetcode_Solutions/tree/main/0647-palindromic-substrings/) | Medium |
 | [0649-dota2-senate](https://github.com/hasonau/Leetcode_Solutions/tree/main/0649-dota2-senate/) | Medium |
@@ -234,6 +235,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/hasonau/Leetcode_Solutions/tree/main/0001-two-sum/) | Easy |
+| [0127-word-ladder](https://github.com/hasonau/Leetcode_Solutions/tree/main/0127-word-ladder/) | Hard |
 | [0139-word-break](https://github.com/hasonau/Leetcode_Solutions/tree/main/0139-word-break/) | Medium |
 | [0752-open-the-lock](https://github.com/hasonau/Leetcode_Solutions/tree/main/0752-open-the-lock/) | Medium |
 | [0846-hand-of-straights](https://github.com/hasonau/Leetcode_Solutions/tree/main/0846-hand-of-straights/) | Medium |
@@ -247,6 +249,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0127-word-ladder](https://github.com/hasonau/Leetcode_Solutions/tree/main/0127-word-ladder/) | Hard |
 | [0200-number-of-islands](https://github.com/hasonau/Leetcode_Solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0322-coin-change](https://github.com/hasonau/Leetcode_Solutions/tree/main/0322-coin-change/) | Medium |
 | [0547-number-of-provinces](https://github.com/hasonau/Leetcode_Solutions/tree/main/0547-number-of-provinces/) | Medium |
@@ -303,5 +306,6 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 ## Bidirectional Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0127-word-ladder](https://github.com/hasonau/Leetcode_Solutions/tree/main/0127-word-ladder/) | Hard |
 | [0752-open-the-lock](https://github.com/hasonau/Leetcode_Solutions/tree/main/0752-open-the-lock/) | Medium |
 <!---LeetCode Topics End-->
