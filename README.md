@@ -121,6 +121,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0739-daily-temperatures](https://github.com/hasonau/Leetcode_Solutions/tree/main/0739-daily-temperatures/) | Medium |
 | [0746-min-cost-climbing-stairs](https://github.com/hasonau/Leetcode_Solutions/tree/main/0746-min-cost-climbing-stairs/) | Easy |
 | [0752-open-the-lock](https://github.com/hasonau/Leetcode_Solutions/tree/main/0752-open-the-lock/) | Medium |
+| [0773-sliding-puzzle](https://github.com/hasonau/Leetcode_Solutions/tree/main/0773-sliding-puzzle/) | Hard |
 | [0815-bus-routes](https://github.com/hasonau/Leetcode_Solutions/tree/main/0815-bus-routes/) | Hard |
 | [0846-hand-of-straights](https://github.com/hasonau/Leetcode_Solutions/tree/main/0846-hand-of-straights/) | Medium |
 | [1046-last-stone-weight](https://github.com/hasonau/Leetcode_Solutions/tree/main/1046-last-stone-weight/) | Easy |
@@ -229,6 +230,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0646-maximum-length-of-pair-chain](https://github.com/hasonau/Leetcode_Solutions/tree/main/0646-maximum-length-of-pair-chain/) | Medium |
 | [0647-palindromic-substrings](https://github.com/hasonau/Leetcode_Solutions/tree/main/0647-palindromic-substrings/) | Medium |
 | [0746-min-cost-climbing-stairs](https://github.com/hasonau/Leetcode_Solutions/tree/main/0746-min-cost-climbing-stairs/) | Easy |
+| [0773-sliding-puzzle](https://github.com/hasonau/Leetcode_Solutions/tree/main/0773-sliding-puzzle/) | Hard |
 | [1048-longest-string-chain](https://github.com/hasonau/Leetcode_Solutions/tree/main/1048-longest-string-chain/) | Medium |
 | [1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons](https://github.com/hasonau/Leetcode_Solutions/tree/main/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/) | Hard |
 | [1911-maximum-alternating-subsequence-sum](https://github.com/hasonau/Leetcode_Solutions/tree/main/1911-maximum-alternating-subsequence-sum/) | Medium |
@@ -248,6 +250,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0070-climbing-stairs](https://github.com/hasonau/Leetcode_Solutions/tree/main/0070-climbing-stairs/) | Easy |
 | [0139-word-break](https://github.com/hasonau/Leetcode_Solutions/tree/main/0139-word-break/) | Medium |
 | [0509-fibonacci-number](https://github.com/hasonau/Leetcode_Solutions/tree/main/0509-fibonacci-number/) | Easy |
+| [0773-sliding-puzzle](https://github.com/hasonau/Leetcode_Solutions/tree/main/0773-sliding-puzzle/) | Hard |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -256,6 +259,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0322-coin-change](https://github.com/hasonau/Leetcode_Solutions/tree/main/0322-coin-change/) | Medium |
 | [0547-number-of-provinces](https://github.com/hasonau/Leetcode_Solutions/tree/main/0547-number-of-provinces/) | Medium |
 | [0752-open-the-lock](https://github.com/hasonau/Leetcode_Solutions/tree/main/0752-open-the-lock/) | Medium |
+| [0773-sliding-puzzle](https://github.com/hasonau/Leetcode_Solutions/tree/main/0773-sliding-puzzle/) | Hard |
 | [0815-bus-routes](https://github.com/hasonau/Leetcode_Solutions/tree/main/0815-bus-routes/) | Hard |
 | [1091-shortest-path-in-binary-matrix](https://github.com/hasonau/Leetcode_Solutions/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/hasonau/Leetcode_Solutions/tree/main/1293-shortest-path-in-a-grid-with-obstacles-elimination/) | Hard |
@@ -286,6 +290,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/hasonau/Leetcode_Solutions/tree/main/0200-number-of-islands/) | Medium |
+| [0773-sliding-puzzle](https://github.com/hasonau/Leetcode_Solutions/tree/main/0773-sliding-puzzle/) | Hard |
 | [1091-shortest-path-in-binary-matrix](https://github.com/hasonau/Leetcode_Solutions/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/hasonau/Leetcode_Solutions/tree/main/1293-shortest-path-in-a-grid-with-obstacles-elimination/) | Hard |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/hasonau/Leetcode_Solutions/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
@@ -311,4 +316,17 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | ------- | ------- |
 | [0127-word-ladder](https://github.com/hasonau/Leetcode_Solutions/tree/main/0127-word-ladder/) | Hard |
 | [0752-open-the-lock](https://github.com/hasonau/Leetcode_Solutions/tree/main/0752-open-the-lock/) | Medium |
+| [0773-sliding-puzzle](https://github.com/hasonau/Leetcode_Solutions/tree/main/0773-sliding-puzzle/) | Hard |
+## Backtracking
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0773-sliding-puzzle](https://github.com/hasonau/Leetcode_Solutions/tree/main/0773-sliding-puzzle/) | Hard |
+## Heuristic Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0773-sliding-puzzle](https://github.com/hasonau/Leetcode_Solutions/tree/main/0773-sliding-puzzle/) | Hard |
+## A* Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0773-sliding-puzzle](https://github.com/hasonau/Leetcode_Solutions/tree/main/0773-sliding-puzzle/) | Hard |
 <!---LeetCode Topics End-->
