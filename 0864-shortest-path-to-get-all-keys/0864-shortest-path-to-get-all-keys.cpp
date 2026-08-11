@@ -1,73 +1,64 @@
+// slower than the set version
 class Solution {
 public:
     int c;
     int r_c;
 
     int bfs(string s, int startIndex, int keyCount) {
-        int s_size = s.size();
-
         int directions[4] = {1, -1, c, -c};
 
-        set<pair<int, set<char>>> visited;
+        // visited[cell] holds a vector of every key-set (as sorted strings) seen there
+        vector<vector<string>> visited(r_c);
 
-        queue<pair<int, unordered_set<char>>> q;
-        q.emplace(startIndex, unordered_set<char>{});
+        queue<pair<int, set<char>>> q;
+        q.emplace(startIndex, set<char>{});
+
+        // mark start as visited (empty key set = "")
+        visited[startIndex].push_back("");
 
         int level = 0;
 
         while (!q.empty()) {
-            int counter = 0;
             int q_size = q.size();
-
-            while (counter < q_size) {
-                auto [index, setState] = q.front();
+            for (int counter = 0; counter < q_size; counter++) {
+                auto [index, keys] = q.front();
                 q.pop();
 
-                // all keys found
-                if (setState.size() == keyCount) return level;
+                if ((int)keys.size() == keyCount) return level;
 
-                for (int d=0 ;d < 4 ;d++){
+                for (int d = 0; d < 4; d++) {
                     int new_index = index + directions[d];
 
-
-                    //  out of bound check
                     if (new_index < 0 || new_index >= r_c) continue;
 
-                    // Right edge or left edge of the grid
                     if ((index % c == (c - 1) && d == 0) ||
                         (index % c == 0 && d == 1))
                         continue;
 
-
                     char new_char = s[new_index];
+                    if (new_char == '#') continue;
 
-                    if (new_char == '#')
+                    set<char> newKeys = keys;  // copy first, mutate the copy
+
+                    if (islower(new_char))
+                        newKeys.insert(new_char);
+
+                    if (isupper(new_char) &&
+                        newKeys.find(tolower(new_char)) == newKeys.end())
                         continue;
 
-                    
-                    // If it's a key, insert that key to set
-                    // if (islower(new_char)) setState.insert(new_char);
-                    auto newState = setState;
+                    // turn the set into a string key for comparison
+                    string keyString(newKeys.begin(), newKeys.end());
 
-                    if (islower(new_char)) newState.insert(new_char);
-                    
-                    // do we have the key for that lock,if not,continue
-                    if(isupper(new_char) && newState.find(tolower(new_char)) == newState.end()) continue;
-
-                    // New state, already visited, skip it
-                    set<char> orderedState(newState.begin(), newState.end());
-
-                    if (visited.find({new_index, orderedState}) != visited.end())
+                    // check if this exact key-combo was already seen at this cell
+                    auto &seenHere = visited[new_index];
+                    if (find(seenHere.begin(), seenHere.end(), keyString) != seenHere.end())
                         continue;
 
-                    // Now process it
-                    visited.insert({new_index, orderedState});
-                    q.push({new_index, newState});
+                    seenHere.push_back(keyString);
+                    q.push({new_index, newKeys});
                 }
-
-                counter++;
             }
-
             level++;
         }
 
@@ -84,14 +75,10 @@ public:
         int keyCount = 0;
 
         for (auto &row : grid) {
-            for (char c : row) {
-                if (c == '@')
-                    startIndex = s.size();
-
-                if (islower(c))
-                    keyCount++;
-
-                s += c;
+            for (char ch : row) {
+                if (ch == '@') startIndex = s.size();
+                if (islower(ch)) keyCount++;
+                s += ch;
             }
         }
 
