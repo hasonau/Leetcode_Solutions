@@ -124,6 +124,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0773-sliding-puzzle](https://github.com/hasonau/Leetcode_Solutions/tree/main/0773-sliding-puzzle/) | Hard |
 | [0815-bus-routes](https://github.com/hasonau/Leetcode_Solutions/tree/main/0815-bus-routes/) | Hard |
 | [0846-hand-of-straights](https://github.com/hasonau/Leetcode_Solutions/tree/main/0846-hand-of-straights/) | Medium |
+| [0864-shortest-path-to-get-all-keys](https://github.com/hasonau/Leetcode_Solutions/tree/main/0864-shortest-path-to-get-all-keys/) | Hard |
 | [1046-last-stone-weight](https://github.com/hasonau/Leetcode_Solutions/tree/main/1046-last-stone-weight/) | Easy |
 | [1048-longest-string-chain](https://github.com/hasonau/Leetcode_Solutions/tree/main/1048-longest-string-chain/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/hasonau/Leetcode_Solutions/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
@@ -261,6 +262,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0752-open-the-lock](https://github.com/hasonau/Leetcode_Solutions/tree/main/0752-open-the-lock/) | Medium |
 | [0773-sliding-puzzle](https://github.com/hasonau/Leetcode_Solutions/tree/main/0773-sliding-puzzle/) | Hard |
 | [0815-bus-routes](https://github.com/hasonau/Leetcode_Solutions/tree/main/0815-bus-routes/) | Hard |
+| [0864-shortest-path-to-get-all-keys](https://github.com/hasonau/Leetcode_Solutions/tree/main/0864-shortest-path-to-get-all-keys/) | Hard |
 | [1091-shortest-path-in-binary-matrix](https://github.com/hasonau/Leetcode_Solutions/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/hasonau/Leetcode_Solutions/tree/main/1293-shortest-path-in-a-grid-with-obstacles-elimination/) | Hard |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/hasonau/Leetcode_Solutions/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
@@ -291,6 +293,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/hasonau/Leetcode_Solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0773-sliding-puzzle](https://github.com/hasonau/Leetcode_Solutions/tree/main/0773-sliding-puzzle/) | Hard |
+| [0864-shortest-path-to-get-all-keys](https://github.com/hasonau/Leetcode_Solutions/tree/main/0864-shortest-path-to-get-all-keys/) | Hard |
 | [1091-shortest-path-in-binary-matrix](https://github.com/hasonau/Leetcode_Solutions/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/hasonau/Leetcode_Solutions/tree/main/1293-shortest-path-in-a-grid-with-obstacles-elimination/) | Hard |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/hasonau/Leetcode_Solutions/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
@@ -329,4 +332,8 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0773-sliding-puzzle](https://github.com/hasonau/Leetcode_Solutions/tree/main/0773-sliding-puzzle/) | Hard |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0864-shortest-path-to-get-all-keys](https://github.com/hasonau/Leetcode_Solutions/tree/main/0864-shortest-path-to-get-all-keys/) | Hard |
 <!---LeetCode Topics End-->
