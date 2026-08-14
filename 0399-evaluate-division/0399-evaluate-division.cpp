@@ -3,7 +3,7 @@ public:
     double dfs(string start,string end,unordered_map<string,vector<string>>& adj,unordered_set<string>& visited,unordered_map<string,double>& equationsMap){
 
     double result = -1.0;
-    for(auto v : adj[start]){
+    for(auto v : adj.contains(start) ? adj[start] : vector<string>{}){
 
         string s = start + "/" + v;
 
@@ -46,14 +46,11 @@ public:
 
         for(auto [index,query] : queries | std::views::enumerate){
             unordered_set<string> visited;
-
-            // // if it's just a reverse of the already available equations,return set immediately
-            // auto it = equationsMap.find(query[1] + "/" + query[0]);
-            // if (it != equationsMap.end()) {
-            //     result[index]= 1.0 / equationsMap[query[1] + "/" + query[0]];
-            //     continue;
-            // }
-            // if not,then it means it needs a traversal
+            // explicit same-variable check: if the variable equals itself and exists in adj , answer is 1
+            if(query[0] == query[1] && adj.contains(query[0])){
+                    result[index] = 1.0;
+                    continue;
+            }
             result[index] = dfs(query[0],query[1],adj,visited,equationsMap);
         }
         return result;
