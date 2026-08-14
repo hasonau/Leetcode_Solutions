@@ -82,6 +82,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0091-decode-ways](https://github.com/hasonau/Leetcode_Solutions/tree/main/0091-decode-ways/) | Medium |
 | [0127-word-ladder](https://github.com/hasonau/Leetcode_Solutions/tree/main/0127-word-ladder/) | Hard |
 | [0139-word-break](https://github.com/hasonau/Leetcode_Solutions/tree/main/0139-word-break/) | Medium |
+| [0399-evaluate-division](https://github.com/hasonau/Leetcode_Solutions/tree/main/0399-evaluate-division/) | Medium |
 | [0647-palindromic-substrings](https://github.com/hasonau/Leetcode_Solutions/tree/main/0647-palindromic-substrings/) | Medium |
 | [0649-dota2-senate](https://github.com/hasonau/Leetcode_Solutions/tree/main/0649-dota2-senate/) | Medium |
 | [0752-open-the-lock](https://github.com/hasonau/Leetcode_Solutions/tree/main/0752-open-the-lock/) | Medium |
@@ -114,6 +115,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0239-sliding-window-maximum](https://github.com/hasonau/Leetcode_Solutions/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0300-longest-increasing-subsequence](https://github.com/hasonau/Leetcode_Solutions/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/hasonau/Leetcode_Solutions/tree/main/0322-coin-change/) | Medium |
+| [0399-evaluate-division](https://github.com/hasonau/Leetcode_Solutions/tree/main/0399-evaluate-division/) | Medium |
 | [0414-third-maximum-number](https://github.com/hasonau/Leetcode_Solutions/tree/main/0414-third-maximum-number/) | Easy |
 | [0416-partition-equal-subset-sum](https://github.com/hasonau/Leetcode_Solutions/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0502-ipo](https://github.com/hasonau/Leetcode_Solutions/tree/main/0502-ipo/) | Hard |
@@ -260,6 +262,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0127-word-ladder](https://github.com/hasonau/Leetcode_Solutions/tree/main/0127-word-ladder/) | Hard |
 | [0200-number-of-islands](https://github.com/hasonau/Leetcode_Solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0322-coin-change](https://github.com/hasonau/Leetcode_Solutions/tree/main/0322-coin-change/) | Medium |
+| [0399-evaluate-division](https://github.com/hasonau/Leetcode_Solutions/tree/main/0399-evaluate-division/) | Medium |
 | [0547-number-of-provinces](https://github.com/hasonau/Leetcode_Solutions/tree/main/0547-number-of-provinces/) | Medium |
 | [0752-open-the-lock](https://github.com/hasonau/Leetcode_Solutions/tree/main/0752-open-the-lock/) | Medium |
 | [0773-sliding-puzzle](https://github.com/hasonau/Leetcode_Solutions/tree/main/0773-sliding-puzzle/) | Hard |
@@ -285,12 +288,14 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/hasonau/Leetcode_Solutions/tree/main/0200-number-of-islands/) | Medium |
+| [0399-evaluate-division](https://github.com/hasonau/Leetcode_Solutions/tree/main/0399-evaluate-division/) | Medium |
 | [0547-number-of-provinces](https://github.com/hasonau/Leetcode_Solutions/tree/main/0547-number-of-provinces/) | Medium |
 | [2101-detonate-the-maximum-bombs](https://github.com/hasonau/Leetcode_Solutions/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/hasonau/Leetcode_Solutions/tree/main/0200-number-of-islands/) | Medium |
+| [0399-evaluate-division](https://github.com/hasonau/Leetcode_Solutions/tree/main/0399-evaluate-division/) | Medium |
 | [0547-number-of-provinces](https://github.com/hasonau/Leetcode_Solutions/tree/main/0547-number-of-provinces/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
@@ -304,12 +309,14 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0399-evaluate-division](https://github.com/hasonau/Leetcode_Solutions/tree/main/0399-evaluate-division/) | Medium |
 | [0547-number-of-provinces](https://github.com/hasonau/Leetcode_Solutions/tree/main/0547-number-of-provinces/) | Medium |
 | [2101-detonate-the-maximum-bombs](https://github.com/hasonau/Leetcode_Solutions/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/hasonau/Leetcode_Solutions/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 ## Shortest Path
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0399-evaluate-division](https://github.com/hasonau/Leetcode_Solutions/tree/main/0399-evaluate-division/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/hasonau/Leetcode_Solutions/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 ## 0-1 BFS
 | Problem Name | Difficulty |
@@ -345,4 +352,12 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2101-detonate-the-maximum-bombs](https://github.com/hasonau/Leetcode_Solutions/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
+## Bellman–Ford Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0399-evaluate-division](https://github.com/hasonau/Leetcode_Solutions/tree/main/0399-evaluate-division/) | Medium |
+## Floyd–Warshall Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0399-evaluate-division](https://github.com/hasonau/Leetcode_Solutions/tree/main/0399-evaluate-division/) | Medium |
 <!---LeetCode Topics End-->
