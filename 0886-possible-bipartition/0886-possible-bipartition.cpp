@@ -39,8 +39,10 @@ public:
         vector<int>visited(n+1,0);
 
         for(int i= 1; i <= n ; i++){
-            if(visited[i]==0) visited[i] = 1;
-            if(!dfsBipartiteCheck(i,adj,visited)) return false;
+            if(visited[i]==0) {
+                visited[i] = 1;
+                if(!dfsBipartiteCheck(i,adj,visited)) return false;
+            }
         }
 
 
