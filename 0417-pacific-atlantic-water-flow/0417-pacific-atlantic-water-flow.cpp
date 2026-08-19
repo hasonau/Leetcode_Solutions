@@ -9,36 +9,38 @@ public:
     void dfs(int i,int j,vector<vector<pair<bool,bool>>>& visited,vector<vector<int>>& grid,bool pacificOcean){
         int r = grid.size();
         int c = grid[0].size();
-        // visited[i][j] = true;
-        // theOcean.insert({})
+
         // handling both in one visited set
-        if(pacificOcean) visited[i][j].first = true;
-        else visited[i][j].second = true;
+        auto& mark = pacificOcean ? visited[i][j].first : visited[i][j].second;
+        // mark points to the visited flag for this ocean (pacific=first, atlantic=second)
+        mark = true;
+
 
         for(auto direction : directions){
             int new_i = i + direction.first;
             int new_j = j + direction.second;
 
             if(new_i >= r || new_i < 0 || new_j < 0 || new_j >= c) continue;
-            if((pacificOcean && visited[new_i][new_j].first)  || (!pacificOcean && visited[new_i][new_j].second)) continue;
+            
+            // check if it's already visited,then continue
+            auto& neighborMark = pacificOcean ? visited[new_i][new_j].first : visited[new_i][new_j].second;
+            if(neighborMark) continue;
 
             if(grid[new_i][new_j] >= grid[i][j]) dfs(new_i,new_j,visited,grid,pacificOcean);
         }
 
         return ;
-
     }
 
 
 
     vector<vector<int>> pacificAtlantic(vector<vector<int>>& grid) {
+
         int r = grid.size();
         int c= grid[0].size();
 
 
         vector<vector<pair<bool,bool>>> visited (r, vector<pair<bool, bool>>(c, {false, false}));
-
-        // unordered_set<pair<int,int>> pacificOcean;
 
         int i=0;
 
@@ -46,14 +48,12 @@ public:
         for(int j=0;j < c;j++){
             if(!visited[i][j].first) dfs(i,j,visited,grid,true);
         }
+
         // first column----> LEFT MOST COLUMN
         int j = 0;
         for(int i=0;i < r;i++){
             if(!visited[i][j].first) dfs(i,j,visited,grid,true);
         }
-
-        // unordered_set<pair<int,int>> atlanticOcean;
-        // visited.clear();
 
         // last row----> BOTTOM MOST ROW
         i = r-1;
@@ -78,7 +78,5 @@ public:
 
         return result;
         
-
-
     }
 };
