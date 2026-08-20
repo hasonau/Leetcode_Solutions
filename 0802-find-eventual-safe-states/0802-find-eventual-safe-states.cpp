@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<int> bfs( unordered_map<int,vector<int>>& adj,vector<int>& outdegree,vector<int>& terminalNodes){
+    vector<int> bfs(vector<vector<int>>& adj,vector<int>& outdegree,vector<int>& terminalNodes){
 
 
         queue<int> q;
@@ -12,21 +12,16 @@ public:
 
 
         while(!q.empty()){
-            int counter =0;
-            int q_size = q.size();
 
-            while(counter < q_size){
-                int u = q.front();
-                q.pop();
+            int u = q.front();
+            q.pop();
 
-                for(int v : adj[u]){
-                    outdegree[v]--;
-                    if(outdegree[v] == 0){
-                        q.push(v);
-                        result.push_back(v);
-                    } 
-                }
-                counter++;
+            for(int v : adj[u]){
+                outdegree[v]--;
+                if(outdegree[v] == 0){
+                    q.push(v);
+                    result.push_back(v);
+                } 
             }
         }
         sort(result.begin(),result.end());
@@ -34,10 +29,10 @@ public:
     }
     vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
         vector<int> terminalNodes;
-        unordered_map<int,vector<int>> adj;
+        vector<vector<int>> adj(graph.size());
         vector<int> outdegree(graph.size(),0);
 
-        // adj and terminalNodes noted
+        // build reversed graph + collect terminal (0-outdegree) nodes
         for(auto [index,node] : std::views::enumerate(graph)){
             if(node.empty()){
                 terminalNodes.push_back(index); 
