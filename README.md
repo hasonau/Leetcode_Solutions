@@ -248,6 +248,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | ------- | ------- |
 | [0001-two-sum](https://github.com/hasonau/Leetcode_Solutions/tree/main/0001-two-sum/) | Easy |
 | [0127-word-ladder](https://github.com/hasonau/Leetcode_Solutions/tree/main/0127-word-ladder/) | Hard |
+| [0133-clone-graph](https://github.com/hasonau/Leetcode_Solutions/tree/main/0133-clone-graph/) | Medium |
 | [0139-word-break](https://github.com/hasonau/Leetcode_Solutions/tree/main/0139-word-break/) | Medium |
 | [0752-open-the-lock](https://github.com/hasonau/Leetcode_Solutions/tree/main/0752-open-the-lock/) | Medium |
 | [0815-bus-routes](https://github.com/hasonau/Leetcode_Solutions/tree/main/0815-bus-routes/) | Hard |
@@ -265,6 +266,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0127-word-ladder](https://github.com/hasonau/Leetcode_Solutions/tree/main/0127-word-ladder/) | Hard |
+| [0133-clone-graph](https://github.com/hasonau/Leetcode_Solutions/tree/main/0133-clone-graph/) | Medium |
 | [0200-number-of-islands](https://github.com/hasonau/Leetcode_Solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0310-minimum-height-trees](https://github.com/hasonau/Leetcode_Solutions/tree/main/0310-minimum-height-trees/) | Medium |
 | [0322-coin-change](https://github.com/hasonau/Leetcode_Solutions/tree/main/0322-coin-change/) | Medium |
@@ -298,6 +300,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0133-clone-graph](https://github.com/hasonau/Leetcode_Solutions/tree/main/0133-clone-graph/) | Medium |
 | [0200-number-of-islands](https://github.com/hasonau/Leetcode_Solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0310-minimum-height-trees](https://github.com/hasonau/Leetcode_Solutions/tree/main/0310-minimum-height-trees/) | Medium |
 | [0399-evaluate-division](https://github.com/hasonau/Leetcode_Solutions/tree/main/0399-evaluate-division/) | Medium |
@@ -330,6 +333,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0133-clone-graph](https://github.com/hasonau/Leetcode_Solutions/tree/main/0133-clone-graph/) | Medium |
 | [0310-minimum-height-trees](https://github.com/hasonau/Leetcode_Solutions/tree/main/0310-minimum-height-trees/) | Medium |
 | [0399-evaluate-division](https://github.com/hasonau/Leetcode_Solutions/tree/main/0399-evaluate-division/) | Medium |
 | [0547-number-of-provinces](https://github.com/hasonau/Leetcode_Solutions/tree/main/0547-number-of-provinces/) | Medium |
