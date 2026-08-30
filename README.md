@@ -268,6 +268,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0127-word-ladder](https://github.com/hasonau/Leetcode_Solutions/tree/main/0127-word-ladder/) | Hard |
 | [0133-clone-graph](https://github.com/hasonau/Leetcode_Solutions/tree/main/0133-clone-graph/) | Medium |
 | [0200-number-of-islands](https://github.com/hasonau/Leetcode_Solutions/tree/main/0200-number-of-islands/) | Medium |
+| [0207-course-schedule](https://github.com/hasonau/Leetcode_Solutions/tree/main/0207-course-schedule/) | Medium |
 | [0310-minimum-height-trees](https://github.com/hasonau/Leetcode_Solutions/tree/main/0310-minimum-height-trees/) | Medium |
 | [0322-coin-change](https://github.com/hasonau/Leetcode_Solutions/tree/main/0322-coin-change/) | Medium |
 | [0399-evaluate-division](https://github.com/hasonau/Leetcode_Solutions/tree/main/0399-evaluate-division/) | Medium |
@@ -302,6 +303,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | ------- | ------- |
 | [0133-clone-graph](https://github.com/hasonau/Leetcode_Solutions/tree/main/0133-clone-graph/) | Medium |
 | [0200-number-of-islands](https://github.com/hasonau/Leetcode_Solutions/tree/main/0200-number-of-islands/) | Medium |
+| [0207-course-schedule](https://github.com/hasonau/Leetcode_Solutions/tree/main/0207-course-schedule/) | Medium |
 | [0310-minimum-height-trees](https://github.com/hasonau/Leetcode_Solutions/tree/main/0310-minimum-height-trees/) | Medium |
 | [0399-evaluate-division](https://github.com/hasonau/Leetcode_Solutions/tree/main/0399-evaluate-division/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/hasonau/Leetcode_Solutions/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
@@ -334,6 +336,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0133-clone-graph](https://github.com/hasonau/Leetcode_Solutions/tree/main/0133-clone-graph/) | Medium |
+| [0207-course-schedule](https://github.com/hasonau/Leetcode_Solutions/tree/main/0207-course-schedule/) | Medium |
 | [0310-minimum-height-trees](https://github.com/hasonau/Leetcode_Solutions/tree/main/0310-minimum-height-trees/) | Medium |
 | [0399-evaluate-division](https://github.com/hasonau/Leetcode_Solutions/tree/main/0399-evaluate-division/) | Medium |
 | [0547-number-of-provinces](https://github.com/hasonau/Leetcode_Solutions/tree/main/0547-number-of-provinces/) | Medium |
@@ -402,6 +405,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 ## Topological Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0207-course-schedule](https://github.com/hasonau/Leetcode_Solutions/tree/main/0207-course-schedule/) | Medium |
 | [0310-minimum-height-trees](https://github.com/hasonau/Leetcode_Solutions/tree/main/0310-minimum-height-trees/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/hasonau/Leetcode_Solutions/tree/main/0802-find-eventual-safe-states/) | Medium |
 ## Kosaraju's Algorithm
@@ -412,4 +416,8 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0802-find-eventual-safe-states](https://github.com/hasonau/Leetcode_Solutions/tree/main/0802-find-eventual-safe-states/) | Medium |
+## Directed Acyclic Graph
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0207-course-schedule](https://github.com/hasonau/Leetcode_Solutions/tree/main/0207-course-schedule/) | Medium |
 <!---LeetCode Topics End-->
