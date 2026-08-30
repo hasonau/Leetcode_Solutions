@@ -3,12 +3,12 @@ public:
     int kahn_algo(vector<vector<int>>& adj,vector<int>& indegrees){
 
         queue<int> q;
-        vector<int> result;
+        int coursesTaken =0;
 
         for(auto [index,indegree] : std::views::enumerate(indegrees)){
             if(indegree == 0) {
                 q.push(index);
-                result.push_back(index);
+                coursesTaken++;
             }
         }
 
@@ -24,14 +24,13 @@ public:
                     indegrees[v]--;
                     if(indegrees[v] == 0) {
                         q.push(v);
-                        result.push_back(v);
+                        coursesTaken++;
                     }
                 }
             level_counter++;    
             }
         }
-        int result_size = result.size();
-        return result.size();
+        return coursesTaken; 
     }
 
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
@@ -46,6 +45,6 @@ public:
             indegrees[v]++;
         }
 
-        return kahn_algo(adj,indegrees) == numCourses ? true : false ;
+        return kahn_algo(adj,indegrees) == numCourses ;
     }
 };
