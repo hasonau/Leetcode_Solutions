@@ -151,6 +151,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0295-find-median-from-data-stream](https://github.com/hasonau/Leetcode_Solutions/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0502-ipo](https://github.com/hasonau/Leetcode_Solutions/tree/main/0502-ipo/) | Hard |
 | [0703-kth-largest-element-in-a-stream](https://github.com/hasonau/Leetcode_Solutions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
+| [0743-network-delay-time](https://github.com/hasonau/Leetcode_Solutions/tree/main/0743-network-delay-time/) | Medium |
 | [1046-last-stone-weight](https://github.com/hasonau/Leetcode_Solutions/tree/main/1046-last-stone-weight/) | Easy |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/hasonau/Leetcode_Solutions/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 ## Monotonic Queue
@@ -276,6 +277,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0417-pacific-atlantic-water-flow](https://github.com/hasonau/Leetcode_Solutions/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
 | [0547-number-of-provinces](https://github.com/hasonau/Leetcode_Solutions/tree/main/0547-number-of-provinces/) | Medium |
 | [0733-flood-fill](https://github.com/hasonau/Leetcode_Solutions/tree/main/0733-flood-fill/) | Easy |
+| [0743-network-delay-time](https://github.com/hasonau/Leetcode_Solutions/tree/main/0743-network-delay-time/) | Medium |
 | [0752-open-the-lock](https://github.com/hasonau/Leetcode_Solutions/tree/main/0752-open-the-lock/) | Medium |
 | [0773-sliding-puzzle](https://github.com/hasonau/Leetcode_Solutions/tree/main/0773-sliding-puzzle/) | Hard |
 | [0785-is-graph-bipartite](https://github.com/hasonau/Leetcode_Solutions/tree/main/0785-is-graph-bipartite/) | Medium |
@@ -311,6 +313,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0417-pacific-atlantic-water-flow](https://github.com/hasonau/Leetcode_Solutions/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
 | [0547-number-of-provinces](https://github.com/hasonau/Leetcode_Solutions/tree/main/0547-number-of-provinces/) | Medium |
 | [0733-flood-fill](https://github.com/hasonau/Leetcode_Solutions/tree/main/0733-flood-fill/) | Easy |
+| [0743-network-delay-time](https://github.com/hasonau/Leetcode_Solutions/tree/main/0743-network-delay-time/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/hasonau/Leetcode_Solutions/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/hasonau/Leetcode_Solutions/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [0886-possible-bipartition](https://github.com/hasonau/Leetcode_Solutions/tree/main/0886-possible-bipartition/) | Medium |
@@ -343,6 +346,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0310-minimum-height-trees](https://github.com/hasonau/Leetcode_Solutions/tree/main/0310-minimum-height-trees/) | Medium |
 | [0399-evaluate-division](https://github.com/hasonau/Leetcode_Solutions/tree/main/0399-evaluate-division/) | Medium |
 | [0547-number-of-provinces](https://github.com/hasonau/Leetcode_Solutions/tree/main/0547-number-of-provinces/) | Medium |
+| [0743-network-delay-time](https://github.com/hasonau/Leetcode_Solutions/tree/main/0743-network-delay-time/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/hasonau/Leetcode_Solutions/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/hasonau/Leetcode_Solutions/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [0886-possible-bipartition](https://github.com/hasonau/Leetcode_Solutions/tree/main/0886-possible-bipartition/) | Medium |
@@ -352,6 +356,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0399-evaluate-division](https://github.com/hasonau/Leetcode_Solutions/tree/main/0399-evaluate-division/) | Medium |
+| [0743-network-delay-time](https://github.com/hasonau/Leetcode_Solutions/tree/main/0743-network-delay-time/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/hasonau/Leetcode_Solutions/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 ## 0-1 BFS
 | Problem Name | Difficulty |
@@ -360,6 +365,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 ## Dijkstra's Algorithm
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0743-network-delay-time](https://github.com/hasonau/Leetcode_Solutions/tree/main/0743-network-delay-time/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/hasonau/Leetcode_Solutions/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 ## Bidirectional Search
 | Problem Name | Difficulty |
