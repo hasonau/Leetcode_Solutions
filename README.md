@@ -135,6 +135,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [1048-longest-string-chain](https://github.com/hasonau/Leetcode_Solutions/tree/main/1048-longest-string-chain/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/hasonau/Leetcode_Solutions/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/hasonau/Leetcode_Solutions/tree/main/1293-shortest-path-in-a-grid-with-obstacles-elimination/) | Hard |
+| [1631-path-with-minimum-effort](https://github.com/hasonau/Leetcode_Solutions/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [1710-maximum-units-on-a-truck](https://github.com/hasonau/Leetcode_Solutions/tree/main/1710-maximum-units-on-a-truck/) | Easy |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/hasonau/Leetcode_Solutions/tree/main/1899-merge-triplets-to-form-target-triplet/) | Medium |
 | [1911-maximum-alternating-subsequence-sum](https://github.com/hasonau/Leetcode_Solutions/tree/main/1911-maximum-alternating-subsequence-sum/) | Medium |
@@ -153,6 +154,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0703-kth-largest-element-in-a-stream](https://github.com/hasonau/Leetcode_Solutions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [0743-network-delay-time](https://github.com/hasonau/Leetcode_Solutions/tree/main/0743-network-delay-time/) | Medium |
 | [1046-last-stone-weight](https://github.com/hasonau/Leetcode_Solutions/tree/main/1046-last-stone-weight/) | Easy |
+| [1631-path-with-minimum-effort](https://github.com/hasonau/Leetcode_Solutions/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/hasonau/Leetcode_Solutions/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 ## Monotonic Queue
 | Problem Name | Difficulty |
@@ -202,6 +204,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | ------- | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/hasonau/Leetcode_Solutions/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0703-kth-largest-element-in-a-stream](https://github.com/hasonau/Leetcode_Solutions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
+| [1631-path-with-minimum-effort](https://github.com/hasonau/Leetcode_Solutions/tree/main/1631-path-with-minimum-effort/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -287,6 +290,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0886-possible-bipartition](https://github.com/hasonau/Leetcode_Solutions/tree/main/0886-possible-bipartition/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/hasonau/Leetcode_Solutions/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/hasonau/Leetcode_Solutions/tree/main/1293-shortest-path-in-a-grid-with-obstacles-elimination/) | Hard |
+| [1631-path-with-minimum-effort](https://github.com/hasonau/Leetcode_Solutions/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [2101-detonate-the-maximum-bombs](https://github.com/hasonau/Leetcode_Solutions/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/hasonau/Leetcode_Solutions/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 ## Recursion
@@ -317,6 +321,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0785-is-graph-bipartite](https://github.com/hasonau/Leetcode_Solutions/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/hasonau/Leetcode_Solutions/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [0886-possible-bipartition](https://github.com/hasonau/Leetcode_Solutions/tree/main/0886-possible-bipartition/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/hasonau/Leetcode_Solutions/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [2101-detonate-the-maximum-bombs](https://github.com/hasonau/Leetcode_Solutions/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
@@ -326,6 +331,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0547-number-of-provinces](https://github.com/hasonau/Leetcode_Solutions/tree/main/0547-number-of-provinces/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/hasonau/Leetcode_Solutions/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0886-possible-bipartition](https://github.com/hasonau/Leetcode_Solutions/tree/main/0886-possible-bipartition/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/hasonau/Leetcode_Solutions/tree/main/1631-path-with-minimum-effort/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -336,6 +342,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0864-shortest-path-to-get-all-keys](https://github.com/hasonau/Leetcode_Solutions/tree/main/0864-shortest-path-to-get-all-keys/) | Hard |
 | [1091-shortest-path-in-binary-matrix](https://github.com/hasonau/Leetcode_Solutions/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/hasonau/Leetcode_Solutions/tree/main/1293-shortest-path-in-a-grid-with-obstacles-elimination/) | Hard |
+| [1631-path-with-minimum-effort](https://github.com/hasonau/Leetcode_Solutions/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/hasonau/Leetcode_Solutions/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 ## Graph Theory
 | Problem Name | Difficulty |
@@ -366,6 +373,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0743-network-delay-time](https://github.com/hasonau/Leetcode_Solutions/tree/main/0743-network-delay-time/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/hasonau/Leetcode_Solutions/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/hasonau/Leetcode_Solutions/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 ## Bidirectional Search
 | Problem Name | Difficulty |
