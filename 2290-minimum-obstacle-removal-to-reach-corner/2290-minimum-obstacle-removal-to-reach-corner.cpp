@@ -1,84 +1,69 @@
+
+#include <deque>
+#include <vector>
+
+
+
 class Solution {
 public:
-    vector<pair<int,int>> directions = {
-    {-1, 0}, // up
-    {1, 0},  // down
-    {0, -1}, // left
-    {0, 1}   // right
-    };
+    int zeroOneBFS(vector<vector<int>>& grid){
+        
+        int rows= grid.size();
+        int cols = grid[0].size();
 
-    void bfs(vector<vector<int>>& grid,vector<vector<int>>& visited){
-        int r = grid.size();
-        int c= grid[0].size();
+        std::deque<pair<int,pair<int,int>>> dq;
 
-        queue<tuple<int, int, int>> q;
-        q.push({0,0,0});
-        visited[0][0] = 0;
+        std::vector<int> dist (rows*cols,INT_MAX);
+        dq.push_front({grid[0][0],{0,0}});
 
-        // cout << "\n===== BFS START =====\n";
+        if(grid[0][0]) dist[0] = 1;
+        else dist[0] = 0;
 
-        while(!q.empty()){
+        std::vector<pair<int,int>> directions = {
+            {0,1},
+            {0,-1},
+            {1,0},
+            {-1,0}
+        };
 
-            int q_size = q.size();
-            int counter = 0;
+        while(!dq.empty()){
 
-            // cout << "\nNew Level\n";
-            // cout << "Queue size at start = " << q_size << "\n";
+            auto [ cost, position ] = dq.front();
+            dq.pop_front();
+            auto [row,col] = position;
 
-            while(counter < q_size){
 
-                auto [i,j,bombUsed] = q.front();
-                q.pop();
+            for(int i = 0 ; i < directions.size(); i++){
+                
+                // if(i == u) continue;
+                
+                auto [dr , dc] = directions[i];
+                int new_r = row + dr;
+                int new_c = col + dc;
 
-                // cout << "\n----------------------\n";
-                // cout << "Counter = " << counter << " / " << q_size << "\n";
-                // cout << "Popped : (" << i << "," << j << ") bombs = " << bombUsed << "\n";
-                // cout << "visited[" << i << "][" << j << "] = " << visited[i][j] << "\n";
+                if(new_r < 0 || new_r >= rows || new_c < 0 || new_c >= cols) continue;
+                
+                int idx = new_r*cols + new_c;
+                int newCost = cost;
+                if(grid[new_r][new_c]) newCost+=1;
+                
+                if(newCost >= dist[idx]) continue;
 
-                if(bombUsed > visited[i][j]){
-                    // cout << "SKIPPED because bombUsed > visited\n";
-                    counter++;
-                    continue;
+                if(grid[new_r][new_c] == 1){
+                    dq.push_back({newCost,{new_r,new_c}});
+                } 
+                else{
+                    dq.push_front({newCost,{new_r,new_c}});
                 }
-
-                for(auto direction : directions){
-
-                    int new_i = i + direction.first;
-                    int new_j = j + direction.second;
-
-                    // cout << "\nChecking neighbour (" << new_i << "," << new_j << ")\n";
-
-                    if(new_i < 0 || new_j < 0 || new_i >= r || new_j >= c){
-                        continue;
-                    }
-
-                    // cout << "Grid value = " << grid[new_i][new_j] << "\n";
-                    // cout << "Current visited = " << visited[new_i][new_j] << "\n";
-                    // cout << "Condition checking : "
-                    //     << bombUsed + 1 << " < " << visited[new_i][new_j] << "\n";
-
-                    
-                    int newValue = bombUsed + grid[new_i][new_j];
-
-                    if((grid[new_i][new_j] && newValue < visited[new_i][new_j]) || (!grid[new_i][new_j] && newValue < visited[new_i][new_j])){
-                            q.push({new_i,new_j,newValue});
-                            visited[new_i][new_j] = newValue;
-                    }
-                    
-                }
-                counter++;
+                dist[idx] = newCost;
             }
-            
         }
+    return dist[rows*cols-1];
     }
 
     int minimumObstacles(vector<vector<int>>& grid) {
-        int r = grid.size();
-        int c= grid[0].size();
+        
+        return zeroOneBFS(grid);
 
-        vector<vector<int>> visited(r, vector<int>(c, INT_MAX));
-
-        bfs(grid,visited);
-        return visited[r-1][c-1];
     }
 };
