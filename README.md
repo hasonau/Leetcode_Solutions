@@ -297,6 +297,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0886-possible-bipartition](https://github.com/hasonau/Leetcode_Solutions/tree/main/0886-possible-bipartition/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/hasonau/Leetcode_Solutions/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/hasonau/Leetcode_Solutions/tree/main/1293-shortest-path-in-a-grid-with-obstacles-elimination/) | Hard |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/hasonau/Leetcode_Solutions/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/hasonau/Leetcode_Solutions/tree/main/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | Hard |
 | [1631-path-with-minimum-effort](https://github.com/hasonau/Leetcode_Solutions/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [2101-detonate-the-maximum-bombs](https://github.com/hasonau/Leetcode_Solutions/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
@@ -331,6 +332,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0785-is-graph-bipartite](https://github.com/hasonau/Leetcode_Solutions/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/hasonau/Leetcode_Solutions/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [0886-possible-bipartition](https://github.com/hasonau/Leetcode_Solutions/tree/main/0886-possible-bipartition/) | Medium |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/hasonau/Leetcode_Solutions/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/hasonau/Leetcode_Solutions/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [2101-detonate-the-maximum-bombs](https://github.com/hasonau/Leetcode_Solutions/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
 ## Union-Find
@@ -343,6 +345,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0778-swim-in-rising-water](https://github.com/hasonau/Leetcode_Solutions/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0785-is-graph-bipartite](https://github.com/hasonau/Leetcode_Solutions/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0886-possible-bipartition](https://github.com/hasonau/Leetcode_Solutions/tree/main/0886-possible-bipartition/) | Medium |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/hasonau/Leetcode_Solutions/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/hasonau/Leetcode_Solutions/tree/main/1631-path-with-minimum-effort/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
@@ -372,6 +375,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0785-is-graph-bipartite](https://github.com/hasonau/Leetcode_Solutions/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/hasonau/Leetcode_Solutions/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [0886-possible-bipartition](https://github.com/hasonau/Leetcode_Solutions/tree/main/0886-possible-bipartition/) | Medium |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/hasonau/Leetcode_Solutions/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/hasonau/Leetcode_Solutions/tree/main/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | Hard |
 | [2101-detonate-the-maximum-bombs](https://github.com/hasonau/Leetcode_Solutions/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/hasonau/Leetcode_Solutions/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
