@@ -7,7 +7,7 @@ public:
     }
 
 
-    bool unionF(int u,int v,vector<int>& parent){
+    int unionF(int u,int v,vector<int>& parent,unordered_set<int>& components){
         
         int u_parent = findRep(u,parent);
         int v_parent = findRep(v,parent);
@@ -19,6 +19,8 @@ public:
             parent[v_parent] = u_parent; 
         }
         
+        components.erase(v_parent);
+        components.insert(u_parent);
         return false;
     }
 
@@ -31,22 +33,24 @@ public:
         }
 
         int redundantConnection= 0;
+        unordered_set<int> components;
+        unordered_set<int> seen;
+        
 
         for(auto edge : edges){
             int u = edge[0];
             int v = edge[1];
 
-            if(unionF(u,v,parent)) redundantConnection++;
+            seen.insert(u);
+            seen.insert(v);
+
+            if(unionF(u,v,parent,components)) redundantConnection++;
         }
 
-        unordered_set<int> components;
+        int totalComponentsMade = components.size();
+        int componentsCount  =  n - seen.size() +  totalComponentsMade;
 
-        for (int i = 0 ;i < n; i++){
-            components.insert(findRep(i,parent));
-        }
 
-        int componentsCount = components.size();
-        cout<<"componentsCount = "<<componentsCount<<endl;
         if(componentsCount == 1) return 0;
 
         // 1 component can be made
