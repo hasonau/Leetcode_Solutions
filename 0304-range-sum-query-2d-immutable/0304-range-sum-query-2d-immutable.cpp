@@ -14,15 +14,7 @@ public:
         for(int i = 1 ;i < rows ; i++){
             for(int j = 1 ; j < cols ; j++){
                 prefixSum[i][j] = prefixSum[i-1][j] + prefixSum[i][j-1] - prefixSum[i-1][j-1] + matrix[i-1][j-1];
-                // cout<<"--"<<prefixSum[i][j];
             }
-            cout<<endl;
-        }
-        for (int i = 0; i < prefixSum.size(); i++) {
-            for (int j = 0; j < prefixSum[0].size(); j++) {
-                cout << prefixSum[i][j] << " -- ";
-            }
-            cout << endl;
         }
     }
     
