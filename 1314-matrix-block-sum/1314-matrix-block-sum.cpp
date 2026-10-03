@@ -1,17 +1,9 @@
 class Solution {
 public:
-    vector<vector<int>> prefixSum;
-
-    int sumRegion(int ur, int lc, int br, int rc) {
-
-        int uRow_RightCol ;
-        if(ur < 0) uRow_RightCol = 0;
-
-        return prefixSum[br+1][rc+1] - prefixSum[ur][rc+1] - prefixSum[br+1][lc] + prefixSum[ur][lc]; 
-    }
-
+    
     vector<vector<int>> matrixBlockSum(vector<vector<int>>& mat, int k) {
          
+        vector<vector<int>> prefixSum;
         int rows = mat.size();
         int cols = mat[0].size();
 
