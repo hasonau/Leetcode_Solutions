@@ -1,0 +1,59 @@
+class Solution {
+public:
+    vector<vector<int>> prefixSum;
+
+    int sumRegion(int ur, int lc, int br, int rc) {
+
+        int uRow_RightCol ;
+        if(ur < 0) uRow_RightCol = 0;
+
+        return prefixSum[br+1][rc+1] - prefixSum[ur][rc+1] - prefixSum[br+1][lc] + prefixSum[ur][lc]; 
+    }
+
+    vector<vector<int>> matrixBlockSum(vector<vector<int>>& mat, int k) {
+         
+        int rows = mat.size();
+        int cols = mat[0].size();
+
+        vector<vector<int>> result(rows,vector<int>(cols));
+        prefixSum.resize(rows+1,vector<int>(cols+1,0));
+
+        rows = prefixSum.size();
+        cols = prefixSum[0].size();
+
+
+        for(int i = 1 ;i < rows ; i++){
+            for(int j = 1 ; j < cols ; j++){
+                prefixSum[i][j] = prefixSum[i-1][j] + prefixSum[i][j-1] - prefixSum[i-1][j-1] + mat[i-1][j-1];
+            }
+        }
+        rows -=1;
+        cols-=1;
+
+        for(int i = 0 ;i < rows ; i++){
+            for(int j = 0 ; j < cols ; j++){
+                
+                int ur = i - k;
+                if(ur < 0) ur = 0;
+
+                int br = i + k;
+                if(br >=rows) br = rows-1;
+
+                int lc = j - k;
+                if(lc < 0) lc = 0;
+
+                int rc = j + k;
+                if(rc >= cols) rc = cols-1;
+                
+                // cout<<"(ur,lc)"<<"("<<ur<<","<<lc<<")"<<endl;
+                // cout<<"(br,rc)"<<"("<<br<<","<<rc<<")"<<endl;
+
+                // cout<<"----------"<<endl;
+
+                result[i][j] = prefixSum[br+1][rc+1] - prefixSum[ur][rc+1] - prefixSum[br+1][lc] + prefixSum[ur][lc]; 
+            }
+        }
+
+        return result;
+    }
+};
