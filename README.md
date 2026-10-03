@@ -139,6 +139,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [1048-longest-string-chain](https://github.com/hasonau/Leetcode_Solutions/tree/main/1048-longest-string-chain/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/hasonau/Leetcode_Solutions/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/hasonau/Leetcode_Solutions/tree/main/1293-shortest-path-in-a-grid-with-obstacles-elimination/) | Hard |
+| [1314-matrix-block-sum](https://github.com/hasonau/Leetcode_Solutions/tree/main/1314-matrix-block-sum/) | Medium |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/hasonau/Leetcode_Solutions/tree/main/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | Hard |
 | [1631-path-with-minimum-effort](https://github.com/hasonau/Leetcode_Solutions/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/hasonau/Leetcode_Solutions/tree/main/1685-sum-of-absolute-differences-in-a-sorted-array/) | Medium |
@@ -319,6 +320,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0303-range-sum-query-immutable](https://github.com/hasonau/Leetcode_Solutions/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [0304-range-sum-query-2d-immutable](https://github.com/hasonau/Leetcode_Solutions/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
 | [0724-find-pivot-index](https://github.com/hasonau/Leetcode_Solutions/tree/main/0724-find-pivot-index/) | Easy |
+| [1314-matrix-block-sum](https://github.com/hasonau/Leetcode_Solutions/tree/main/1314-matrix-block-sum/) | Medium |
 | [1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons](https://github.com/hasonau/Leetcode_Solutions/tree/main/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/) | Hard |
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/hasonau/Leetcode_Solutions/tree/main/1685-sum-of-absolute-differences-in-a-sorted-array/) | Medium |
 ## Trie
@@ -370,6 +372,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0864-shortest-path-to-get-all-keys](https://github.com/hasonau/Leetcode_Solutions/tree/main/0864-shortest-path-to-get-all-keys/) | Hard |
 | [1091-shortest-path-in-binary-matrix](https://github.com/hasonau/Leetcode_Solutions/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/hasonau/Leetcode_Solutions/tree/main/1293-shortest-path-in-a-grid-with-obstacles-elimination/) | Hard |
+| [1314-matrix-block-sum](https://github.com/hasonau/Leetcode_Solutions/tree/main/1314-matrix-block-sum/) | Medium |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/hasonau/Leetcode_Solutions/tree/main/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | Hard |
 | [1631-path-with-minimum-effort](https://github.com/hasonau/Leetcode_Solutions/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/hasonau/Leetcode_Solutions/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
