@@ -34,21 +34,21 @@ public:
             for(int j = 0 ; j < cols ; j++){
                 
                 int ur = i - k;
-                if(ur < 0) ur = 0;
+                ur = max(0,ur);
+                // if(ur < 0) ur = 0;
 
                 int br = i + k;
-                if(br >=rows) br = rows-1;
+                br = min(rows-1,br);
+                // if(br >=rows) br = rows-1;
 
                 int lc = j - k;
-                if(lc < 0) lc = 0;
+                lc = max(0,lc);
+                // if(lc < 0) lc = 0;
 
                 int rc = j + k;
-                if(rc >= cols) rc = cols-1;
+                rc = min(cols-1,rc);
+                // if(rc >= cols) rc = cols-1;
                 
-                // cout<<"(ur,lc)"<<"("<<ur<<","<<lc<<")"<<endl;
-                // cout<<"(br,rc)"<<"("<<br<<","<<rc<<")"<<endl;
-
-                // cout<<"----------"<<endl;
 
                 result[i][j] = prefixSum[br+1][rc+1] - prefixSum[ur][rc+1] - prefixSum[br+1][lc] + prefixSum[ur][lc]; 
             }
