@@ -5,17 +5,15 @@ public:
         unordered_map<int, int> prefixFreq;
         int count = 0;
 
-        vector<int>prefixSum(nums.size()+1);
-        prefixSum[0]=0;
         prefixFreq[0]++;
 
+        int prefixSum = 0;
         for(auto [i,n] : std::views::enumerate(nums)){
 
-            prefixSum[i+1] = prefixSum[i] + n;
-            int s = prefixSum[i+1];
-            if(prefixFreq.contains(s - k)) count+=prefixFreq[s-k];
+            prefixSum+=n;
+            if(prefixFreq.contains(prefixSum - k)) count+=prefixFreq[prefixSum-k];
 
-            prefixFreq[s]++;
+            prefixFreq[prefixSum]++;
         }
         return count;
     }
