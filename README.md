@@ -136,6 +136,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0846-hand-of-straights](https://github.com/hasonau/Leetcode_Solutions/tree/main/0846-hand-of-straights/) | Medium |
 | [0864-shortest-path-to-get-all-keys](https://github.com/hasonau/Leetcode_Solutions/tree/main/0864-shortest-path-to-get-all-keys/) | Hard |
 | [0953-verifying-an-alien-dictionary](https://github.com/hasonau/Leetcode_Solutions/tree/main/0953-verifying-an-alien-dictionary/) | Easy |
+| [0974-subarray-sums-divisible-by-k](https://github.com/hasonau/Leetcode_Solutions/tree/main/0974-subarray-sums-divisible-by-k/) | Medium |
 | [1046-last-stone-weight](https://github.com/hasonau/Leetcode_Solutions/tree/main/1046-last-stone-weight/) | Easy |
 | [1048-longest-string-chain](https://github.com/hasonau/Leetcode_Solutions/tree/main/1048-longest-string-chain/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/hasonau/Leetcode_Solutions/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
@@ -273,6 +274,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0815-bus-routes](https://github.com/hasonau/Leetcode_Solutions/tree/main/0815-bus-routes/) | Hard |
 | [0846-hand-of-straights](https://github.com/hasonau/Leetcode_Solutions/tree/main/0846-hand-of-straights/) | Medium |
 | [0953-verifying-an-alien-dictionary](https://github.com/hasonau/Leetcode_Solutions/tree/main/0953-verifying-an-alien-dictionary/) | Easy |
+| [0974-subarray-sums-divisible-by-k](https://github.com/hasonau/Leetcode_Solutions/tree/main/0974-subarray-sums-divisible-by-k/) | Medium |
 | [1048-longest-string-chain](https://github.com/hasonau/Leetcode_Solutions/tree/main/1048-longest-string-chain/) | Medium |
 ## Memoization
 | Problem Name | Difficulty |
@@ -323,6 +325,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0304-range-sum-query-2d-immutable](https://github.com/hasonau/Leetcode_Solutions/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/hasonau/Leetcode_Solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0724-find-pivot-index](https://github.com/hasonau/Leetcode_Solutions/tree/main/0724-find-pivot-index/) | Easy |
+| [0974-subarray-sums-divisible-by-k](https://github.com/hasonau/Leetcode_Solutions/tree/main/0974-subarray-sums-divisible-by-k/) | Medium |
 | [1314-matrix-block-sum](https://github.com/hasonau/Leetcode_Solutions/tree/main/1314-matrix-block-sum/) | Medium |
 | [1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons](https://github.com/hasonau/Leetcode_Solutions/tree/main/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/) | Hard |
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/hasonau/Leetcode_Solutions/tree/main/1685-sum-of-absolute-differences-in-a-sorted-array/) | Medium |
