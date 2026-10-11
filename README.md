@@ -123,6 +123,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0416-partition-equal-subset-sum](https://github.com/hasonau/Leetcode_Solutions/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/hasonau/Leetcode_Solutions/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
 | [0502-ipo](https://github.com/hasonau/Leetcode_Solutions/tree/main/0502-ipo/) | Hard |
+| [0525-contiguous-array](https://github.com/hasonau/Leetcode_Solutions/tree/main/0525-contiguous-array/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/hasonau/Leetcode_Solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0646-maximum-length-of-pair-chain](https://github.com/hasonau/Leetcode_Solutions/tree/main/0646-maximum-length-of-pair-chain/) | Medium |
 | [0724-find-pivot-index](https://github.com/hasonau/Leetcode_Solutions/tree/main/0724-find-pivot-index/) | Easy |
@@ -269,6 +270,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0127-word-ladder](https://github.com/hasonau/Leetcode_Solutions/tree/main/0127-word-ladder/) | Hard |
 | [0133-clone-graph](https://github.com/hasonau/Leetcode_Solutions/tree/main/0133-clone-graph/) | Medium |
 | [0139-word-break](https://github.com/hasonau/Leetcode_Solutions/tree/main/0139-word-break/) | Medium |
+| [0525-contiguous-array](https://github.com/hasonau/Leetcode_Solutions/tree/main/0525-contiguous-array/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/hasonau/Leetcode_Solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0752-open-the-lock](https://github.com/hasonau/Leetcode_Solutions/tree/main/0752-open-the-lock/) | Medium |
 | [0815-bus-routes](https://github.com/hasonau/Leetcode_Solutions/tree/main/0815-bus-routes/) | Hard |
@@ -323,6 +325,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | ------- | ------- |
 | [0303-range-sum-query-immutable](https://github.com/hasonau/Leetcode_Solutions/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [0304-range-sum-query-2d-immutable](https://github.com/hasonau/Leetcode_Solutions/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
+| [0525-contiguous-array](https://github.com/hasonau/Leetcode_Solutions/tree/main/0525-contiguous-array/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/hasonau/Leetcode_Solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0724-find-pivot-index](https://github.com/hasonau/Leetcode_Solutions/tree/main/0724-find-pivot-index/) | Easy |
 | [0974-subarray-sums-divisible-by-k](https://github.com/hasonau/Leetcode_Solutions/tree/main/0974-subarray-sums-divisible-by-k/) | Medium |
