@@ -145,6 +145,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [1310-xor-queries-of-a-subarray](https://github.com/hasonau/Leetcode_Solutions/tree/main/1310-xor-queries-of-a-subarray/) | Medium |
 | [1314-matrix-block-sum](https://github.com/hasonau/Leetcode_Solutions/tree/main/1314-matrix-block-sum/) | Medium |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/hasonau/Leetcode_Solutions/tree/main/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | Hard |
+| [1442-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/hasonau/Leetcode_Solutions/tree/main/1442-count-triplets-that-can-form-two-arrays-of-equal-xor/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/hasonau/Leetcode_Solutions/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/hasonau/Leetcode_Solutions/tree/main/1685-sum-of-absolute-differences-in-a-sorted-array/) | Medium |
 | [1710-maximum-units-on-a-truck](https://github.com/hasonau/Leetcode_Solutions/tree/main/1710-maximum-units-on-a-truck/) | Easy |
@@ -195,6 +196,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0150-evaluate-reverse-polish-notation](https://github.com/hasonau/Leetcode_Solutions/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0263-ugly-number](https://github.com/hasonau/Leetcode_Solutions/tree/main/0263-ugly-number/) | Easy |
 | [0509-fibonacci-number](https://github.com/hasonau/Leetcode_Solutions/tree/main/0509-fibonacci-number/) | Easy |
+| [1442-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/hasonau/Leetcode_Solutions/tree/main/1442-count-triplets-that-can-form-two-arrays-of-equal-xor/) | Medium |
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/hasonau/Leetcode_Solutions/tree/main/1685-sum-of-absolute-differences-in-a-sorted-array/) | Medium |
 | [2101-detonate-the-maximum-bombs](https://github.com/hasonau/Leetcode_Solutions/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
 ## Monotonic Stack
@@ -279,6 +281,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0953-verifying-an-alien-dictionary](https://github.com/hasonau/Leetcode_Solutions/tree/main/0953-verifying-an-alien-dictionary/) | Easy |
 | [0974-subarray-sums-divisible-by-k](https://github.com/hasonau/Leetcode_Solutions/tree/main/0974-subarray-sums-divisible-by-k/) | Medium |
 | [1048-longest-string-chain](https://github.com/hasonau/Leetcode_Solutions/tree/main/1048-longest-string-chain/) | Medium |
+| [1442-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/hasonau/Leetcode_Solutions/tree/main/1442-count-triplets-that-can-form-two-arrays-of-equal-xor/) | Medium |
 ## Memoization
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -333,6 +336,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [1310-xor-queries-of-a-subarray](https://github.com/hasonau/Leetcode_Solutions/tree/main/1310-xor-queries-of-a-subarray/) | Medium |
 | [1314-matrix-block-sum](https://github.com/hasonau/Leetcode_Solutions/tree/main/1314-matrix-block-sum/) | Medium |
 | [1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons](https://github.com/hasonau/Leetcode_Solutions/tree/main/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/) | Hard |
+| [1442-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/hasonau/Leetcode_Solutions/tree/main/1442-count-triplets-that-can-form-two-arrays-of-equal-xor/) | Medium |
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/hasonau/Leetcode_Solutions/tree/main/1685-sum-of-absolute-differences-in-a-sorted-array/) | Medium |
 ## Trie
 | Problem Name | Difficulty |
@@ -448,6 +452,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | ------- | ------- |
 | [0864-shortest-path-to-get-all-keys](https://github.com/hasonau/Leetcode_Solutions/tree/main/0864-shortest-path-to-get-all-keys/) | Hard |
 | [1310-xor-queries-of-a-subarray](https://github.com/hasonau/Leetcode_Solutions/tree/main/1310-xor-queries-of-a-subarray/) | Medium |
+| [1442-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/hasonau/Leetcode_Solutions/tree/main/1442-count-triplets-that-can-form-two-arrays-of-equal-xor/) | Medium |
 ## Geometry
 | Problem Name | Difficulty |
 | ------- | ------- |
