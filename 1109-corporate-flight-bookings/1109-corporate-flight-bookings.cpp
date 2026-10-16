@@ -1,26 +1,28 @@
+// better than the two before solutions
 class Solution {
 public:
     vector<int> corpFlightBookings(vector<vector<int>>& bookings, int n) {
         
-        vector<int> diffArray(n+2);
+        vector<int> diffArray(n+1);
 
         for(int i = 0 ; i < bookings.size(); i++){
             int start = bookings[i][0];
             int end = bookings[i][1];
             int value = bookings[i][2];
 
-            diffArray[start] += value;
-            diffArray[end + 1] -= value;
+            diffArray[start -1 ] += value;
+            diffArray[end] -= value;
         }
 
-        vector<int> result(n);
-        int runningSum= 0;
+        
+        int runningSum = 0;
 
-        for(int i = 1; i <= n; i++){
+        for (int i = 0; i < n; i++) {
             runningSum += diffArray[i];
-            result[i - 1] = runningSum;
+            diffArray[i] = runningSum;
         }
 
-        return result;
+        diffArray.pop_back();
+        return diffArray;
     }
 };
