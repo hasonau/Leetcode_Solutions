@@ -2,12 +2,8 @@ class Solution {
 public:
     bool carPooling(vector<vector<int>>& bookings, int capacity) {
 
-        int maxSize = -1;
-        for(auto book : bookings){
-            maxSize = max(maxSize,book[2]);
-        }
 
-         vector<int> diffArray(maxSize + 1);
+         vector<int> diffArray(1001);
 
         for(int i = 0 ; i < bookings.size(); i++){
             
