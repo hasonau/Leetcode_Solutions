@@ -19,7 +19,7 @@ public:
         
         long long runningSum = 0;
 
-        for (int i = 0; i < maxSize; i++) {
+        for (int i = 0; i <= maxSize; i++) {
             runningSum += diffArray[i];
             if(runningSum > capacity) return false;
             diffArray[i] = runningSum;
