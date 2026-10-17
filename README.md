@@ -141,6 +141,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [1046-last-stone-weight](https://github.com/hasonau/Leetcode_Solutions/tree/main/1046-last-stone-weight/) | Easy |
 | [1048-longest-string-chain](https://github.com/hasonau/Leetcode_Solutions/tree/main/1048-longest-string-chain/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/hasonau/Leetcode_Solutions/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
+| [1094-car-pooling](https://github.com/hasonau/Leetcode_Solutions/tree/main/1094-car-pooling/) | Medium |
 | [1109-corporate-flight-bookings](https://github.com/hasonau/Leetcode_Solutions/tree/main/1109-corporate-flight-bookings/) | Medium |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/hasonau/Leetcode_Solutions/tree/main/1293-shortest-path-in-a-grid-with-obstacles-elimination/) | Hard |
 | [1310-xor-queries-of-a-subarray](https://github.com/hasonau/Leetcode_Solutions/tree/main/1310-xor-queries-of-a-subarray/) | Medium |
@@ -168,6 +169,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0743-network-delay-time](https://github.com/hasonau/Leetcode_Solutions/tree/main/0743-network-delay-time/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/hasonau/Leetcode_Solutions/tree/main/0778-swim-in-rising-water/) | Hard |
 | [1046-last-stone-weight](https://github.com/hasonau/Leetcode_Solutions/tree/main/1046-last-stone-weight/) | Easy |
+| [1094-car-pooling](https://github.com/hasonau/Leetcode_Solutions/tree/main/1094-car-pooling/) | Medium |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/hasonau/Leetcode_Solutions/tree/main/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | Hard |
 | [1631-path-with-minimum-effort](https://github.com/hasonau/Leetcode_Solutions/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/hasonau/Leetcode_Solutions/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
@@ -213,6 +215,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0646-maximum-length-of-pair-chain](https://github.com/hasonau/Leetcode_Solutions/tree/main/0646-maximum-length-of-pair-chain/) | Medium |
 | [0846-hand-of-straights](https://github.com/hasonau/Leetcode_Solutions/tree/main/0846-hand-of-straights/) | Medium |
 | [1048-longest-string-chain](https://github.com/hasonau/Leetcode_Solutions/tree/main/1048-longest-string-chain/) | Medium |
+| [1094-car-pooling](https://github.com/hasonau/Leetcode_Solutions/tree/main/1094-car-pooling/) | Medium |
 | [1710-maximum-units-on-a-truck](https://github.com/hasonau/Leetcode_Solutions/tree/main/1710-maximum-units-on-a-truck/) | Easy |
 ## Tree
 | Problem Name | Difficulty |
@@ -334,6 +337,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0560-subarray-sum-equals-k](https://github.com/hasonau/Leetcode_Solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0724-find-pivot-index](https://github.com/hasonau/Leetcode_Solutions/tree/main/0724-find-pivot-index/) | Easy |
 | [0974-subarray-sums-divisible-by-k](https://github.com/hasonau/Leetcode_Solutions/tree/main/0974-subarray-sums-divisible-by-k/) | Medium |
+| [1094-car-pooling](https://github.com/hasonau/Leetcode_Solutions/tree/main/1094-car-pooling/) | Medium |
 | [1109-corporate-flight-bookings](https://github.com/hasonau/Leetcode_Solutions/tree/main/1109-corporate-flight-bookings/) | Medium |
 | [1310-xor-queries-of-a-subarray](https://github.com/hasonau/Leetcode_Solutions/tree/main/1310-xor-queries-of-a-subarray/) | Medium |
 | [1314-matrix-block-sum](https://github.com/hasonau/Leetcode_Solutions/tree/main/1314-matrix-block-sum/) | Medium |
@@ -500,4 +504,8 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0778-swim-in-rising-water](https://github.com/hasonau/Leetcode_Solutions/tree/main/0778-swim-in-rising-water/) | Hard |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1094-car-pooling](https://github.com/hasonau/Leetcode_Solutions/tree/main/1094-car-pooling/) | Medium |
 <!---LeetCode Topics End-->
