@@ -102,6 +102,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | ------- | ------- |
 | [0239-sliding-window-maximum](https://github.com/hasonau/Leetcode_Solutions/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0649-dota2-senate](https://github.com/hasonau/Leetcode_Solutions/tree/main/0649-dota2-senate/) | Medium |
+| [0995-minimum-number-of-k-consecutive-bit-flips](https://github.com/hasonau/Leetcode_Solutions/tree/main/0995-minimum-number-of-k-consecutive-bit-flips/) | Hard |
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -138,6 +139,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0864-shortest-path-to-get-all-keys](https://github.com/hasonau/Leetcode_Solutions/tree/main/0864-shortest-path-to-get-all-keys/) | Hard |
 | [0953-verifying-an-alien-dictionary](https://github.com/hasonau/Leetcode_Solutions/tree/main/0953-verifying-an-alien-dictionary/) | Easy |
 | [0974-subarray-sums-divisible-by-k](https://github.com/hasonau/Leetcode_Solutions/tree/main/0974-subarray-sums-divisible-by-k/) | Medium |
+| [0995-minimum-number-of-k-consecutive-bit-flips](https://github.com/hasonau/Leetcode_Solutions/tree/main/0995-minimum-number-of-k-consecutive-bit-flips/) | Hard |
 | [1046-last-stone-weight](https://github.com/hasonau/Leetcode_Solutions/tree/main/1046-last-stone-weight/) | Easy |
 | [1048-longest-string-chain](https://github.com/hasonau/Leetcode_Solutions/tree/main/1048-longest-string-chain/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/hasonau/Leetcode_Solutions/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
@@ -159,6 +161,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0239-sliding-window-maximum](https://github.com/hasonau/Leetcode_Solutions/tree/main/0239-sliding-window-maximum/) | Hard |
+| [0995-minimum-number-of-k-consecutive-bit-flips](https://github.com/hasonau/Leetcode_Solutions/tree/main/0995-minimum-number-of-k-consecutive-bit-flips/) | Hard |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -337,6 +340,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0560-subarray-sum-equals-k](https://github.com/hasonau/Leetcode_Solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0724-find-pivot-index](https://github.com/hasonau/Leetcode_Solutions/tree/main/0724-find-pivot-index/) | Easy |
 | [0974-subarray-sums-divisible-by-k](https://github.com/hasonau/Leetcode_Solutions/tree/main/0974-subarray-sums-divisible-by-k/) | Medium |
+| [0995-minimum-number-of-k-consecutive-bit-flips](https://github.com/hasonau/Leetcode_Solutions/tree/main/0995-minimum-number-of-k-consecutive-bit-flips/) | Hard |
 | [1094-car-pooling](https://github.com/hasonau/Leetcode_Solutions/tree/main/1094-car-pooling/) | Medium |
 | [1109-corporate-flight-bookings](https://github.com/hasonau/Leetcode_Solutions/tree/main/1109-corporate-flight-bookings/) | Medium |
 | [1310-xor-queries-of-a-subarray](https://github.com/hasonau/Leetcode_Solutions/tree/main/1310-xor-queries-of-a-subarray/) | Medium |
@@ -457,6 +461,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0864-shortest-path-to-get-all-keys](https://github.com/hasonau/Leetcode_Solutions/tree/main/0864-shortest-path-to-get-all-keys/) | Hard |
+| [0995-minimum-number-of-k-consecutive-bit-flips](https://github.com/hasonau/Leetcode_Solutions/tree/main/0995-minimum-number-of-k-consecutive-bit-flips/) | Hard |
 | [1310-xor-queries-of-a-subarray](https://github.com/hasonau/Leetcode_Solutions/tree/main/1310-xor-queries-of-a-subarray/) | Medium |
 | [1442-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/hasonau/Leetcode_Solutions/tree/main/1442-count-triplets-that-can-form-two-arrays-of-equal-xor/) | Medium |
 ## Geometry
@@ -508,4 +513,8 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1094-car-pooling](https://github.com/hasonau/Leetcode_Solutions/tree/main/1094-car-pooling/) | Medium |
+## Brute-Force Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0995-minimum-number-of-k-consecutive-bit-flips](https://github.com/hasonau/Leetcode_Solutions/tree/main/0995-minimum-number-of-k-consecutive-bit-flips/) | Hard |
 <!---LeetCode Topics End-->
