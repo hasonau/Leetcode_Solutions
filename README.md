@@ -114,6 +114,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0198-house-robber](https://github.com/hasonau/Leetcode_Solutions/tree/main/0198-house-robber/) | Medium |
 | [0200-number-of-islands](https://github.com/hasonau/Leetcode_Solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0213-house-robber-ii](https://github.com/hasonau/Leetcode_Solutions/tree/main/0213-house-robber-ii/) | Medium |
+| [0217-contains-duplicate](https://github.com/hasonau/Leetcode_Solutions/tree/main/0217-contains-duplicate/) | Easy |
 | [0239-sliding-window-maximum](https://github.com/hasonau/Leetcode_Solutions/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0300-longest-increasing-subsequence](https://github.com/hasonau/Leetcode_Solutions/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0303-range-sum-query-immutable](https://github.com/hasonau/Leetcode_Solutions/tree/main/0303-range-sum-query-immutable/) | Easy |
@@ -212,6 +213,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0217-contains-duplicate](https://github.com/hasonau/Leetcode_Solutions/tree/main/0217-contains-duplicate/) | Easy |
 | [0295-find-median-from-data-stream](https://github.com/hasonau/Leetcode_Solutions/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0414-third-maximum-number](https://github.com/hasonau/Leetcode_Solutions/tree/main/0414-third-maximum-number/) | Easy |
 | [0502-ipo](https://github.com/hasonau/Leetcode_Solutions/tree/main/0502-ipo/) | Hard |
@@ -280,6 +282,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0127-word-ladder](https://github.com/hasonau/Leetcode_Solutions/tree/main/0127-word-ladder/) | Hard |
 | [0133-clone-graph](https://github.com/hasonau/Leetcode_Solutions/tree/main/0133-clone-graph/) | Medium |
 | [0139-word-break](https://github.com/hasonau/Leetcode_Solutions/tree/main/0139-word-break/) | Medium |
+| [0217-contains-duplicate](https://github.com/hasonau/Leetcode_Solutions/tree/main/0217-contains-duplicate/) | Easy |
 | [0525-contiguous-array](https://github.com/hasonau/Leetcode_Solutions/tree/main/0525-contiguous-array/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/hasonau/Leetcode_Solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0752-open-the-lock](https://github.com/hasonau/Leetcode_Solutions/tree/main/0752-open-the-lock/) | Medium |
