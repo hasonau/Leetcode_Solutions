@@ -107,6 +107,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/hasonau/Leetcode_Solutions/tree/main/0001-two-sum/) | Easy |
+| [0036-valid-sudoku](https://github.com/hasonau/Leetcode_Solutions/tree/main/0036-valid-sudoku/) | Medium |
 | [0053-maximum-subarray](https://github.com/hasonau/Leetcode_Solutions/tree/main/0053-maximum-subarray/) | Medium |
 | [0139-word-break](https://github.com/hasonau/Leetcode_Solutions/tree/main/0139-word-break/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/hasonau/Leetcode_Solutions/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
@@ -281,6 +282,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/hasonau/Leetcode_Solutions/tree/main/0001-two-sum/) | Easy |
+| [0036-valid-sudoku](https://github.com/hasonau/Leetcode_Solutions/tree/main/0036-valid-sudoku/) | Medium |
 | [0127-word-ladder](https://github.com/hasonau/Leetcode_Solutions/tree/main/0127-word-ladder/) | Hard |
 | [0133-clone-graph](https://github.com/hasonau/Leetcode_Solutions/tree/main/0133-clone-graph/) | Medium |
 | [0139-word-break](https://github.com/hasonau/Leetcode_Solutions/tree/main/0139-word-break/) | Medium |
@@ -394,6 +396,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0036-valid-sudoku](https://github.com/hasonau/Leetcode_Solutions/tree/main/0036-valid-sudoku/) | Medium |
 | [0200-number-of-islands](https://github.com/hasonau/Leetcode_Solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0304-range-sum-query-2d-immutable](https://github.com/hasonau/Leetcode_Solutions/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/hasonau/Leetcode_Solutions/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
