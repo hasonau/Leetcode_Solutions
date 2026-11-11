@@ -84,6 +84,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0139-word-break](https://github.com/hasonau/Leetcode_Solutions/tree/main/0139-word-break/) | Medium |
 | [0242-valid-anagram](https://github.com/hasonau/Leetcode_Solutions/tree/main/0242-valid-anagram/) | Easy |
 | [0399-evaluate-division](https://github.com/hasonau/Leetcode_Solutions/tree/main/0399-evaluate-division/) | Medium |
+| [0451-sort-characters-by-frequency](https://github.com/hasonau/Leetcode_Solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0647-palindromic-substrings](https://github.com/hasonau/Leetcode_Solutions/tree/main/0647-palindromic-substrings/) | Medium |
 | [0649-dota2-senate](https://github.com/hasonau/Leetcode_Solutions/tree/main/0649-dota2-senate/) | Medium |
 | [0752-open-the-lock](https://github.com/hasonau/Leetcode_Solutions/tree/main/0752-open-the-lock/) | Medium |
@@ -171,6 +172,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | ------- | ------- |
 | [0239-sliding-window-maximum](https://github.com/hasonau/Leetcode_Solutions/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0295-find-median-from-data-stream](https://github.com/hasonau/Leetcode_Solutions/tree/main/0295-find-median-from-data-stream/) | Hard |
+| [0451-sort-characters-by-frequency](https://github.com/hasonau/Leetcode_Solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0502-ipo](https://github.com/hasonau/Leetcode_Solutions/tree/main/0502-ipo/) | Hard |
 | [0703-kth-largest-element-in-a-stream](https://github.com/hasonau/Leetcode_Solutions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [0743-network-delay-time](https://github.com/hasonau/Leetcode_Solutions/tree/main/0743-network-delay-time/) | Medium |
@@ -222,6 +224,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0295-find-median-from-data-stream](https://github.com/hasonau/Leetcode_Solutions/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0350-intersection-of-two-arrays-ii](https://github.com/hasonau/Leetcode_Solutions/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0414-third-maximum-number](https://github.com/hasonau/Leetcode_Solutions/tree/main/0414-third-maximum-number/) | Easy |
+| [0451-sort-characters-by-frequency](https://github.com/hasonau/Leetcode_Solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0502-ipo](https://github.com/hasonau/Leetcode_Solutions/tree/main/0502-ipo/) | Hard |
 | [0646-maximum-length-of-pair-chain](https://github.com/hasonau/Leetcode_Solutions/tree/main/0646-maximum-length-of-pair-chain/) | Medium |
 | [0846-hand-of-straights](https://github.com/hasonau/Leetcode_Solutions/tree/main/0846-hand-of-straights/) | Medium |
@@ -296,6 +299,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0217-contains-duplicate](https://github.com/hasonau/Leetcode_Solutions/tree/main/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/hasonau/Leetcode_Solutions/tree/main/0242-valid-anagram/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/hasonau/Leetcode_Solutions/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
+| [0451-sort-characters-by-frequency](https://github.com/hasonau/Leetcode_Solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0525-contiguous-array](https://github.com/hasonau/Leetcode_Solutions/tree/main/0525-contiguous-array/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/hasonau/Leetcode_Solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0752-open-the-lock](https://github.com/hasonau/Leetcode_Solutions/tree/main/0752-open-the-lock/) | Medium |
@@ -538,4 +542,12 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0202-happy-number](https://github.com/hasonau/Leetcode_Solutions/tree/main/0202-happy-number/) | Easy |
+## Bucket Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0451-sort-characters-by-frequency](https://github.com/hasonau/Leetcode_Solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
+## Counting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0451-sort-characters-by-frequency](https://github.com/hasonau/Leetcode_Solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
 <!---LeetCode Topics End-->
