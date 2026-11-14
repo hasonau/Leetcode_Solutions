@@ -1,36 +1,39 @@
 class Solution {
 public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
-        unordered_map<int,int>hashmap;
-        // frequencies of all elements has been recorded in hashmap
-        for (int i=0;i<nums.size();i++){
-            if(hashmap.find(nums[i])!=hashmap.end()){
-                hashmap[nums[i]]+=1;
-            }
-            else{
-                hashmap[nums[i]]=1;
-            }
-        }
 
-        // now we take out the pairs,and place in sortingRelatedVector vector,
-        vector<pair<int, int>> sortingRelatedVector;
-        for(const auto &pair:hashmap){
-            sortingRelatedVector.push_back({pair.second,pair.first});
-        }
+        unordered_map<int, unordered_set<int>> group_by_frequency;
+        unordered_map<int, int> frequency_map;
 
-        // now we need to sort it,we call the sorting method on it
-        sort(sortingRelatedVector.rbegin(),sortingRelatedVector.rend());
-        // this sorting changes the original vector
-        // now we only push the the second value of first k elements 
+        int max_freq =  0;
+
+        for(int n : nums){
+            int old_freq = frequency_map[n];
+
+            // we remove it from it's previous location,whenever it was somewhere else,it 
+            // means now it's count increase so it should go in that  bucket
+            if(old_freq > 0){
+                group_by_frequency[old_freq].erase(n);
+            }
+
+            int new_freq = ++old_freq;
+            group_by_frequency[new_freq].insert(n);
+            frequency_map[n] = new_freq;
+            max_freq = max(max_freq, new_freq);
+        }
 
         vector<int>result;
-        for(int i=0;i<k;i++){
-            result.push_back(sortingRelatedVector[i].second);
+        while(true){
+            if(group_by_frequency.contains(max_freq)){
+                for (int n : group_by_frequency[max_freq]) {
+                        result.push_back(n);
+                    }
+                    if(result.size() == k) break;
+            }
+            max_freq--;
+            if(max_freq == 0) break;
         }
 
         return result;
-
-
-
     }
 };
