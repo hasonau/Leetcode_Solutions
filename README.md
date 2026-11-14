@@ -123,6 +123,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0303-range-sum-query-immutable](https://github.com/hasonau/Leetcode_Solutions/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [0304-range-sum-query-2d-immutable](https://github.com/hasonau/Leetcode_Solutions/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
 | [0322-coin-change](https://github.com/hasonau/Leetcode_Solutions/tree/main/0322-coin-change/) | Medium |
+| [0347-top-k-frequent-elements](https://github.com/hasonau/Leetcode_Solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0350-intersection-of-two-arrays-ii](https://github.com/hasonau/Leetcode_Solutions/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0399-evaluate-division](https://github.com/hasonau/Leetcode_Solutions/tree/main/0399-evaluate-division/) | Medium |
 | [0414-third-maximum-number](https://github.com/hasonau/Leetcode_Solutions/tree/main/0414-third-maximum-number/) | Easy |
@@ -172,6 +173,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | ------- | ------- |
 | [0239-sliding-window-maximum](https://github.com/hasonau/Leetcode_Solutions/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0295-find-median-from-data-stream](https://github.com/hasonau/Leetcode_Solutions/tree/main/0295-find-median-from-data-stream/) | Hard |
+| [0347-top-k-frequent-elements](https://github.com/hasonau/Leetcode_Solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/hasonau/Leetcode_Solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0502-ipo](https://github.com/hasonau/Leetcode_Solutions/tree/main/0502-ipo/) | Hard |
 | [0703-kth-largest-element-in-a-stream](https://github.com/hasonau/Leetcode_Solutions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
@@ -222,6 +224,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0217-contains-duplicate](https://github.com/hasonau/Leetcode_Solutions/tree/main/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/hasonau/Leetcode_Solutions/tree/main/0242-valid-anagram/) | Easy |
 | [0295-find-median-from-data-stream](https://github.com/hasonau/Leetcode_Solutions/tree/main/0295-find-median-from-data-stream/) | Hard |
+| [0347-top-k-frequent-elements](https://github.com/hasonau/Leetcode_Solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0350-intersection-of-two-arrays-ii](https://github.com/hasonau/Leetcode_Solutions/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0414-third-maximum-number](https://github.com/hasonau/Leetcode_Solutions/tree/main/0414-third-maximum-number/) | Easy |
 | [0451-sort-characters-by-frequency](https://github.com/hasonau/Leetcode_Solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
@@ -265,6 +268,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0053-maximum-subarray](https://github.com/hasonau/Leetcode_Solutions/tree/main/0053-maximum-subarray/) | Medium |
+| [0347-top-k-frequent-elements](https://github.com/hasonau/Leetcode_Solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -298,6 +302,7 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 | [0202-happy-number](https://github.com/hasonau/Leetcode_Solutions/tree/main/0202-happy-number/) | Easy |
 | [0217-contains-duplicate](https://github.com/hasonau/Leetcode_Solutions/tree/main/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/hasonau/Leetcode_Solutions/tree/main/0242-valid-anagram/) | Easy |
+| [0347-top-k-frequent-elements](https://github.com/hasonau/Leetcode_Solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0350-intersection-of-two-arrays-ii](https://github.com/hasonau/Leetcode_Solutions/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0451-sort-characters-by-frequency](https://github.com/hasonau/Leetcode_Solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0525-contiguous-array](https://github.com/hasonau/Leetcode_Solutions/tree/main/0525-contiguous-array/) | Medium |
@@ -545,9 +550,15 @@ Thank you for visiting the LEETCODE SOLUTIONS repository. Happy coding!
 ## Bucket Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0347-top-k-frequent-elements](https://github.com/hasonau/Leetcode_Solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/hasonau/Leetcode_Solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0347-top-k-frequent-elements](https://github.com/hasonau/Leetcode_Solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/hasonau/Leetcode_Solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
+## Quickselect
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0347-top-k-frequent-elements](https://github.com/hasonau/Leetcode_Solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 <!---LeetCode Topics End-->
